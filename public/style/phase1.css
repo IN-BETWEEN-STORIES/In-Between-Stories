@@ -8,29 +8,91 @@
     animation-timing-function: ease;
 }
 
+/* Desktop */
 @keyframes mug_animation {
     0% {
-        transform: translateY(0px);
+        transform: translateY(0%);
     }
     50% {
-        transform: translateY(100px);
+        transform: translateY(10%);
     }
     100% {
-        transform: translateY(0px);
+        transform: translateY(0%);
     }
 }
 
 @keyframes pour_animation {
     0% {
-        transform: translateY(0px);
-        clip-path: inset(0 0 210px 0);
+        transform: translateY(0%);
+        clip-path: inset(0 0 21% 0);
     }
     50% {
-        transform: translateY(-100px);
-        clip-path: inset(0 0 10px 0);
+        transform: translateY(-5%);
+        clip-path: inset(0 0 2% 0);
     }
     100% {
-        transform: translateY(0px);
-        clip-path: inset(0 0 210px 0);
+        transform: translateY(0%);
+        clip-path: inset(0 0 21% 0);
     }
 }
+
+/* Tablet */
+/* @media screen and (max-width: 992px) {
+    @keyframes mug_animation {
+        0% {
+            transform: translateY(0vh);
+        }
+        50% {
+            transform: translateY(5vh);
+        }
+        100% {
+            transform: translateY(0vh);
+        }
+    }
+
+    @keyframes pour_animation {
+        0% {
+            transform: translateY(0vh);
+            clip-path: inset(0 0 9vh 0);
+        }
+        50% {
+            transform: translateY(-5vh);
+            clip-path: inset(0 0 0.5vh 0);
+        }
+        100% {
+            transform: translateY(0vh);
+            clip-path: inset(0 0 9vh 0);
+        }
+    }
+} */
+
+/* Phone */
+/* @media screen and (max-width: 576px) {
+    @keyframes mug_animation {
+        0% {
+            transform: translateY(0vh);
+        }
+        50% {
+            transform: translateY(5vh);
+        }
+        100% {
+            transform: translateY(0vh);
+        }
+    }
+
+    @keyframes pour_animation {
+        0% {
+            transform: translateY(0vh);
+            clip-path: inset(0 0 9.75vh 0);
+        }
+        50% {
+            transform: translateY(-5vh);
+            clip-path: inset(0 0 0.5vh 0);
+        }
+        100% {
+            transform: translateY(0vh);
+            clip-path: inset(0 0 9.75vh 0);
+        }
+    }
+} */
+
