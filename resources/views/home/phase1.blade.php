@@ -9,5 +9,5 @@
         class="absolute w-[8.5%] top-[-15%] left-[52.5%] z-[3]" loading="eager">
 
     <img src="{{ asset('/assets/home/phase1/clock.png') }}" alt="Clock" id="phase1_clock"
-        class="absolute w-[25%] top-[24.25%] left-[72.5%] z-[4] cursor-grab" loading="eager">
+        class="absolute w-[25%] top-[24.25%] left-[72.5%] z-[4] cursor-grab touch-none" loading="eager">
 </section>
