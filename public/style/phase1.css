@@ -23,18 +23,14 @@
 @keyframes pour_animation {
     0% {
         transform: translateY(0px);
-    }
-    49% {
-        z-index: 4;
+        clip-path: inset(0 0 210px 0);
     }
     50% {
         transform: translateY(-100px);
-    }
-    60% {
-        z-index: 2;
+        clip-path: inset(0 0 10px 0);
     }
     100% {
         transform: translateY(0px);
-        z-index: 2;
+        clip-path: inset(0 0 210px 0);
     }
 }
