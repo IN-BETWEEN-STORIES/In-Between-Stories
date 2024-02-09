@@ -1,0 +1,40 @@
+#phase1_mug {
+    animation: mug_animation 5s infinite;
+    animation-timing-function: ease;
+}
+
+#phase1_pour {
+    animation: pour_animation 5s infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes mug_animation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes pour_animation {
+    0% {
+        transform: translateY(0px);
+    }
+    49% {
+        z-index: 4;
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+    60% {
+        z-index: 2;
+    }
+    100% {
+        transform: translateY(0px);
+        z-index: 2;
+    }
+}
