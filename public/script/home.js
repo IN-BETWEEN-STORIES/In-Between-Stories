@@ -47,3 +47,13 @@ function dragElement(elmnt) {
         document.ontouchend = null;
     }
 }
+
+// let tween = gsap.from("#phase1_clock", {
+//     scrollTrigger: {
+//         trigger: "#phase1_clock",
+//         start: "top center",
+//         scrub: 1,
+//         // immediateRender: false,
+//     },
+//     x: -50,
+// });
