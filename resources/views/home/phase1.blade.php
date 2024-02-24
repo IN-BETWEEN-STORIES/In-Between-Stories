@@ -42,11 +42,15 @@
     <div>
         {{-- anting kiri --}}
         <img src="{{ asset('/assets/home/new_phase1/anting1.png') }}" alt="Anting Kiri" id="anting_kiri"
-            class="absolute w-[9.6%] top-[24.15%] left-[55.15%] z-[4]">
+            class="absolute w-[9.6%] top-[24.15%] left-[55.15%] z-[4]" loading="lazy">
         {{-- anting kanan --}}
         <img src="{{ asset('/assets/home/new_phase1/anting2.png') }}" alt="Anting Kanan" id="anting_kanan"
-            class="absolute w-[9.35%] top-[27.35%] left-[62.03%] z-[4]">
+            class="absolute w-[9.35%] top-[27.35%] left-[62.03%] z-[4]" loading="lazy">
     </div>
+
+    {{-- Koper & Lemari --}}
+    <img src="{{ asset('/assets/home/new_phase1/koper_lemari.png') }}" alt="Koper & Lemari" id="phase1_koper_lemari"
+        class="absolute w-[95%] top-[41.5%] right-0 z-[4]" loading="lazy">
 
     {{-- isi laci atas --}}
     <div>
@@ -102,13 +106,29 @@
             class="absolute w-[24%] top-[59%] left-[75.1%] z-[10]" loading="lazy">
     </div>
 
-    {{-- Kertas jatuh 2 --}}
-    <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_2.png') }}" alt="Kertas Jatuh 2"
-        id="phase1_kertas_jatuh_2" class="absolute w-[26%] top-[29.25%] left-[13%] z-[3]" loading="lazy">
+    {{-- kertas2 jatuh --}}
+    <div>
+        {{-- Kertas jatuh 2 --}}
+        <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_2.png') }}" alt="Kertas Jatuh 2"
+            id="phase1_kertas_jatuh_2" class="absolute w-[26%] top-[29.25%] left-[13%] z-[3]" loading="lazy">
+        {{-- Kertas jatuh 3 --}}
+        <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_3.png') }}" alt="Kertas Jatuh 3"
+            id="phase1_kertas_jatuh_3" class="absolute w-[24%] top-[36.68%] left-[3%] z-[3]" loading="lazy">
+        {{-- Kertas jatuh 4 --}}
+        <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_4.png') }}" alt="Kertas Jatuh 4"
+            id="phase1_kertas_jatuh_4" class="absolute w-[16%] top-[45.9%] left-[11.5%] z-[4]" loading="lazy">
+        {{-- Kertas jatuh 7 --}}
+        <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_7.png') }}" alt="Kertas Jatuh 7"
+            id="phase1_kertas_jatuh_7" class="absolute w-[21.3%] top-[47.8%] left-[0%] z-[4]" loading="lazy">
+        {{-- Kertas jatuh 5 --}}
+        <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_5.png') }}" alt="Kertas Jatuh 5"
+            id="phase1_kertas_jatuh_5" class="absolute w-[17%] top-[57.5%] left-[14%] z-[4]" loading="lazy">
+        {{-- Kertas jatuh 6 --}}
+        <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_6.png') }}" alt="Kertas Jatuh 6"
+            id="phase1_kertas_jatuh_6" class="absolute w-[21.8%] top-[61.85%] left-[.86%] z-[4]" loading="lazy">
+    </div>
 
-    {{-- Koper & Lemari --}}
-    <img src="{{ asset('/assets/home/new_phase1/koper_lemari.png') }}" alt="Koper & Lemari" id="phase1_koper_lemari"
-        class="absolute w-[95%] top-[41.5%] right-0 z-[4]" loading="lazy">
+
 
 
 
