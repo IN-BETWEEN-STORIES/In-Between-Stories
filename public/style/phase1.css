@@ -8,6 +8,10 @@
     animation-timing-function: ease;
 }
 
+#phase1_koper_bawah {
+    clip-path: inset(0 0 35% 0);
+}
+
 /* Desktop */
 @keyframes mug_animation {
     0% {

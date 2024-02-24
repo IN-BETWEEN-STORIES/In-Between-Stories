@@ -128,9 +128,109 @@
             id="phase1_kertas_jatuh_6" class="absolute w-[21.8%] top-[61.85%] left-[.86%] z-[4]" loading="lazy">
     </div>
 
+    {{-- Background pasir --}}
+    <img src="{{ asset('/assets/home/new_phase1/bg_pasir_bawah.png') }}" alt="Background Pasir" id="phase1_bg_pasir"
+        class="absolute w-full bottom-0 z-[5]" loading="lazy">
 
+    {{-- Gedung + koper bawah --}}
+    <div>
+        {{-- Gedung bawah --}}
+        <img src="{{ asset('/assets/home/new_phase1/gedung_bawah.png') }}" alt="Gedung Bawah"
+            id="phase1_gedung_bawah" class="absolute w-[68%] bottom-[14.75%] left-0 z-[12]" loading="lazy">
 
+        {{-- Koper bawah --}}
+        <img src="{{ asset('/assets/home/new_phase1/koper_bawah.png') }}" alt="Koper Bawah" id="phase1_koper_bawah"
+            class="absolute w-[63.5%] bottom-[9.5%] right-0 z-[11]" loading="lazy">
+    </div>
 
+    {{-- Jalan bawah + orang" --}}
+    <div>
+        {{-- Jalan bawah --}}
+        <img src="{{ asset('/assets/home/new_phase1/jalan_bawah.png') }}" alt="Jalan Bawah" id="phase1_jalan_bawah"
+            class="absolute w-[61%] bottom-0 z-[12]" loading="lazy">
 
+        {{-- Mobil ijo tua --}}
+        <img src="{{ asset('/assets/home/new_phase1/mobil_ijo.png') }}" alt="Mobil 1" id="phase1_mobil1"
+            class="absolute w-[14.5%] bottom-[9.25%] left-[24.5%] z-[12]" loading="lazy">
 
+        {{-- Mobil merah --}}
+        <img src="{{ asset('/assets/home/new_phase1/mobil_merah.png') }}" alt="Mobil 2" id="phase1_mobil2"
+            class="absolute w-[26%] bottom-[4.25%] left-[20.25%] z-[12]" loading="lazy">
+
+        {{-- Mobil ijo muda --}}
+        <img src="{{ asset('/assets/home/new_phase1/mobil_ijo_muda.png') }}" alt="Mobil 3" id="phase1_mobil3"
+            class="absolute w-[16.6%] bottom-[5.75%] left-0 z-[12]" loading="lazy">
+
+        {{-- Orang kiri --}}
+        <img src="{{ asset('/assets/home/new_phase1/kim_bawah.png') }}" alt="Orang Bawah 1" id="phase1_orang_bawah1"
+            class="absolute w-[9%] bottom-[8%] left-[15.25%] z-[12]" loading="lazy">
+
+        {{-- Orang tengah --}}
+        <img src="{{ asset('/assets/home/new_phase1/karyn_bawah.png') }}" alt="Orang Bawah 2"
+            id="phase1_orang_bawah2" class="absolute w-[13%] bottom-[0.85%] left-[37.5%] z-[12]" loading="lazy">
+    </div>
+
+    {{-- Bawah kanan --}}
+    <div>
+        {{-- Box bawah --}}
+        <img src="{{ asset('/assets/home/new_phase1/box_tas.png') }}" alt="Box Bawah" id="phase1_box_bawah"
+            class="absolute w-[22.5%] bottom-[3.4%] left-[51.8%] z-[14]" loading="lazy">
+
+        {{-- Orang Kanan --}}
+        <img src="{{ asset('/assets/home/new_phase1/maureen_bawah.png') }}" alt="Orang Bawah 3"
+            id="phase1_orang_bawah3" class="absolute w-[14.35%] bottom-[1.9%] right-[16.75%] z-[20]" loading="lazy">
+
+        {{-- Pintu --}}
+        <img src="{{ asset('/assets/home/new_phase1/pintu.png') }}" alt="Pintu" id="phase1_pintu"
+            class="absolute w-[26.75%] bottom-[4.25%] right-[7.35%] z-[17]" loading="lazy">
+
+        {{-- Kalung biru --}}
+        <img src="{{ asset('/assets/home/new_phase1/kalung_biru.png') }}" alt="Kalung Biru" id="phase1_kalung_biru"
+            class="absolute w-[11%] bottom-[20.1%] right-[15.5%] z-[18]" loading="lazy">
+
+        {{-- Kalung pink --}}
+        <img src="{{ asset('/assets/home/new_phase1/kalung_pink.png') }}" alt="Kalung Pink" id="phase1_kalung_pink"
+            class="absolute w-[12.25%] bottom-[15.75%] right-[9.25%] z-[18]" loading="lazy">
+
+        {{-- Tangan --}}
+        <img src="{{ asset('/assets/home/new_phase1/tangan_bawah.png') }}" alt="Tangan Bawah"
+            id="phase1_tangan_bawah" class="absolute w-[17.75%] bottom-[4.35%] right-0 z-[19]" loading="lazy">
+
+        {{-- Bunga --}}
+        <img src="{{ asset('/assets/home/new_phase1/buket_bunga.png') }}" alt="Bunga" id="phase1_bunga"
+            class="absolute w-[13%] bottom-[3.2%] right-0 z-[20]" loading="lazy">
+
+        {{-- Tas --}}
+        <div>
+            {{-- Orange --}}
+            <img src="{{ asset('/assets/home/new_phase1/tas_oren.png') }}" alt="Tas Orange" id="phase1_tas_orange"
+                class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14]" loading="lazy">
+
+            {{-- Merah --}}
+            <img src="{{ asset('/assets/home/new_phase1/tas_merah.png') }}" alt="Tas Merah" id="phase1_tas_merah"
+                class="absolute w-[15%] bottom-[12.75%] right-[32%] z-[15]" loading="lazy">
+
+            {{-- Ijo --}}
+            <img src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo"
+                class="absolute w-[16%] bottom-[12%] right-[24.75%] z-[16]" loading="lazy">
+        </div>
+
+        {{-- Tumpukan barang --}}
+        <img src="{{ asset('/assets/home/new_phase1/tumpukan_barang.png') }}" alt="Tumpukan Barang"
+            id="phase1_tumpukan_barang" class="absolute w-[27%] bottom-[11.75%] right-[17.5%] z-[13]" loading="lazy">
+
+        {{-- Kertas & tumbuhan blkg pintu --}}
+        <img src="{{ asset('/assets/home/new_phase1/kertas_tumbuhan_pintu.png') }}" alt="Kertas dan Tumbuhan"
+            id="phase1_kertas_tumbuhan" class="absolute w-[18%] bottom-[5.4%] right-0 z-[13]" loading="lazy">
+    </div>
+
+    {{-- Lebah --}}
+    <div>
+        {{-- Lebah telpon --}}
+        <img src="{{ asset('/assets/home/new_phase1/lebah_telpon.png') }}" alt="Lebah Telpon"
+            id="phase1_lebah_telpon" class="absolute w-[11%] bottom-[19.75%] right-[1.75%] z-[25]" loading="lazy">
+
+        {{-- Cedek tas --}}
+        
+    </div>
 </section>
