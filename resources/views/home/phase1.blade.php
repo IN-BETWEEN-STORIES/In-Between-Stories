@@ -66,11 +66,33 @@
     <img src="{{ asset('/assets/home/new_phase1/koper_lemari.png') }}" alt="Koper & Lemari" id="phase1_koper_lemari"
         class="absolute w-[95%] top-[41.5%] right-0 z-[4]" loading="lazy">
 
-    {{-- Laci --}}
-    <img src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci" id="phase1_laci"
-        class="absolute w-[79.5%] top-[44.5%] right-[-9.5%] z-[10]" loading="lazy">
+    {{-- Laci 1 --}}
+    <img src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 1" id="phase1_laci_1"
+        class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[6]" loading="lazy">
 
     {{-- Kertas laci 1 --}}
-    <img src="{{ asset('/assets/home/new_phase1/kertas_laci_1.png') }}" alt="Laci" id="phase1_kertas_laci_1"
+    <img src="{{ asset('/assets/home/new_phase1/kertas_laci_1.png') }}" alt="Kertas Laci 1" id="phase1_kertas_laci_1"
         class="absolute w-[25%] top-[38.5%] left-[55%] z-[5]" loading="lazy">
+
+    {{-- Laci 2 --}}
+    <img src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 2" id="phase1_laci_2"
+        class="absolute w-[79.5%] top-[55.15%] right-[-9.5%] z-[8]" loading="lazy">
+
+    {{-- Kertas laci 2 --}}
+    <img src="{{ asset('/assets/home/new_phase1/kertas_laci_2.png') }}" alt="Laci" id="phase1_kertas_laci_2"
+        class="absolute w-[32%] top-[48%] left-[31%] z-[7]" loading="lazy">
+
+    {{-- Laci 3 --}}
+    <img src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 3" id="phase1_laci_3"
+        class="absolute w-[79.5%] top-[65.84%] right-[-9.5%] z-[11]" loading="lazy">
+
+    {{-- Kertas laci 3 / kertas --}}
+    <img src="{{ asset('/assets/home/new_phase1/kertas_laci_3.png') }}" alt="Kertas Laci 3"
+        id="phase1_kertas_laci_3" class="absolute w-[33%] top-[59.02%] left-[66%] z-[9]" loading="lazy">
+
+    {{-- Kertas laci 4 / bunga --}}
+    <img src="{{ asset('/assets/home/new_phase1/kertas_laci_4.png') }}" alt="Bunga" id="phase1_kertas_laci_4"
+        class="absolute w-[24%] top-[59%] left-[75.1%] z-[10]" loading="lazy">
+
+
 </section>
