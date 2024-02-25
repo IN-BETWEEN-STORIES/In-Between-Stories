@@ -58,25 +58,32 @@
         <img src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 1" id="phase1_laci_1"
             class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[6]" loading="lazy">
 
-        {{-- Jam --}}
-        <img src="{{ asset('/assets/home/new_phase1/jam.png') }}" alt="Jam" id="phase1_jam"
-            class="absolute w-[31.75%] top-[21.75%] left-[68.5%] z-[6]" loading="lazy">
+        {{-- block dummy buat test tgn pegang jam --}}
+        <div class="absolute top-[35%] left-[80%] z-[5]" id="dummy1"
+            style="background-color: red; width: 50px; height: 50px;"></div>
 
-        {{-- Jarum jam --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam.png') }}" alt="Jam" id="phase1_jarum_jam"
-            class="absolute w-[8.5%] top-[30.6%] left-[82.5%] z-[6]" loading="lazy">
+        {{-- container tgn pegang jam --}}
+        <div id="tgn_jam_container">
+            {{-- Jam --}}
+            <img src="{{ asset('/assets/home/new_phase1/jam.png') }}" alt="Jam" id="phase1_jam"
+                class="absolute w-[31.75%] top-[21.75%] left-[68.5%] z-[6] phase1_tgn_jam" loading="lazy">
 
-        {{-- Jarum jam 2 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_2.png') }}" alt="Jam" id="phase1_jarum_jam_2"
-            class="absolute w-[12.5%] top-[29.75%] left-[80.5%] z-[6]" loading="lazy">
+            {{-- Jarum jam --}}
+            <img src="{{ asset('/assets/home/new_phase1/jarum_jam.png') }}" alt="Jam" id="phase1_jarum_jam"
+                class="absolute w-[8.5%] top-[30.6%] left-[82.5%] z-[6] phase1_tgn_jam" loading="lazy">
 
-        {{-- Jarum jam 3 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_3.png') }}" alt="Jam" id="phase1_jarum_jam_2"
-            class="absolute w-[8.5%] top-[29.75%] left-[80.6%] z-[6]" loading="lazy">
+            {{-- Jarum jam 2 --}}
+            <img src="{{ asset('/assets/home/new_phase1/jarum_jam_2.png') }}" alt="Jam" id="phase1_jarum_jam_2"
+                class="absolute w-[12.5%] top-[29.75%] left-[80.5%] z-[6] phase1_tgn_jam" loading="lazy">
 
-        {{-- Jarum jam 4 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_4.png') }}" alt="Jam" id="phase1_jarum_jam_2"
-            class="absolute w-[10%] top-[32.1%] left-[77.5%] z-[6]" loading="lazy">
+            {{-- Jarum jam 3 --}}
+            <img src="{{ asset('/assets/home/new_phase1/jarum_jam_3.png') }}" alt="Jam" id="phase1_jarum_jam_2"
+                class="absolute w-[8.5%] top-[29.75%] left-[80.6%] z-[6] phase1_tgn_jam" loading="lazy">
+
+            {{-- Jarum jam 4 --}}
+            <img src="{{ asset('/assets/home/new_phase1/jarum_jam_4.png') }}" alt="Jam" id="phase1_jarum_jam_2"
+                class="absolute w-[10%] top-[32.1%] left-[77.5%] z-[6] phase1_tgn_jam" loading="lazy">
+        </div>
 
         {{-- Kertas laci 1 --}}
         <img src="{{ asset('/assets/home/new_phase1/kertas_laci_1.png') }}" alt="Kertas Laci 1"
@@ -231,6 +238,6 @@
             id="phase1_lebah_telpon" class="absolute w-[11%] bottom-[19.75%] right-[1.75%] z-[25]" loading="lazy">
 
         {{-- Cedek tas --}}
-        
+
     </div>
 </section>

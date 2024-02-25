@@ -1,4 +1,4 @@
-dragElement(document.getElementById("phase1_clock"));
+// dragElement(document.getElementById("phase1_clock"));
 
 function dragElement(elmnt) {
     var pos1 = 0,
@@ -57,3 +57,29 @@ function dragElement(elmnt) {
 //     },
 //     x: -50,
 // });
+
+$(document).ready(function () {
+
+    // Store the original position of the element
+    var originalPosition = $('#phase1_jam').position().left;
+    console.log('ori pos: ' + originalPosition);
+
+    // Set the --original-position CSS custom property
+    $('#phase1_tgn_jam').css('--original-position', originalPosition);
+
+    // tgn pegang jam slide to right on click
+    $('#tgn_jam_container').on('click', function () {
+        $('.phase1_tgn_jam').addClass('slide-right');
+        $('.phase1_tgn_jam').removeClass('slide-left');
+    });
+
+    $('#dummy1').on('click', function () {
+        // Store the original position of the element
+        var newPosition = $('#phase1_jam').position().left;
+        console.log('new pos: ' + newPosition);
+        $('#phase1_tgn_jam').css('--new-position', newPosition);
+
+        $('.phase1_tgn_jam').addClass('slide-left');
+        $('.phase1_tgn_jam').removeClass('slide-right');
+    });
+});
