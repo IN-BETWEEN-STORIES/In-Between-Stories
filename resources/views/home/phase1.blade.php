@@ -116,16 +116,16 @@
             id="phase1_kertas_jatuh_3" class="absolute w-[24%] top-[36.68%] left-[3%] z-[3]" loading="lazy">
         {{-- Kertas jatuh 4 --}}
         <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_4.png') }}" alt="Kertas Jatuh 4"
-            id="phase1_kertas_jatuh_4" class="absolute w-[16%] top-[45.9%] left-[11.5%] z-[4]" loading="lazy">
+            id="phase1_kertas_jatuh_4" class="absolute w-[16%] top-[45.9%] left-[11.5%] z-[12]" loading="lazy">
         {{-- Kertas jatuh 7 --}}
         <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_7.png') }}" alt="Kertas Jatuh 7"
-            id="phase1_kertas_jatuh_7" class="absolute w-[21.3%] top-[47.8%] left-[0%] z-[4]" loading="lazy">
+            id="phase1_kertas_jatuh_7" class="absolute w-[21.3%] top-[47.8%] left-[0%] z-[12]" loading="lazy">
         {{-- Kertas jatuh 5 --}}
         <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_5.png') }}" alt="Kertas Jatuh 5"
-            id="phase1_kertas_jatuh_5" class="absolute w-[17%] top-[57.5%] left-[14%] z-[4]" loading="lazy">
+            id="phase1_kertas_jatuh_5" class="absolute w-[17%] top-[57.5%] left-[14%] z-[12]" loading="lazy">
         {{-- Kertas jatuh 6 --}}
         <img src="{{ asset('/assets/home/new_phase1/kertas_jatuh_6.png') }}" alt="Kertas Jatuh 6"
-            id="phase1_kertas_jatuh_6" class="absolute w-[21.8%] top-[61.85%] left-[.86%] z-[4]" loading="lazy">
+            id="phase1_kertas_jatuh_6" class="absolute w-[21.8%] top-[61.85%] left-[.86%] z-[12]" loading="lazy">
     </div>
 
     {{-- Background pasir --}}
@@ -231,6 +231,6 @@
             id="phase1_lebah_telpon" class="absolute w-[11%] bottom-[19.75%] right-[1.75%] z-[25]" loading="lazy">
 
         {{-- Cedek tas --}}
-        
+
     </div>
 </section>
