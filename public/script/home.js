@@ -1,5 +1,3 @@
-dragElement(document.getElementById("phase1_clock"));
-
 function dragElement(elmnt) {
     var pos1 = 0,
         pos2 = 0,
@@ -48,12 +46,95 @@ function dragElement(elmnt) {
     }
 }
 
-// let tween = gsap.from("#phase1_clock", {
-//     scrollTrigger: {
-//         trigger: "#phase1_clock",
-//         start: "top center",
-//         scrub: 1,
-//         // immediateRender: false,
-//     },
-//     x: -50,
-// });
+$(document).ready(function () {
+    // Store the original position of the element
+    var originalPosition = $("#phase1_jam").position().left;
+    console.log("ori pos: " + originalPosition);
+
+    // Set the --original-position CSS custom property
+    $("#phase1_tgn_jam").css("--original-position", originalPosition);
+
+    // tgn pegang jam slide to right on click
+    $(".phase1_tgn_jam").on("click", function (e) {
+        $(".phase1_tgn_jam").addClass("slide-right");
+        $(".phase1_tgn_jam").removeClass("slide-left");
+    });
+
+    $("#dummy1").on("click", function () {
+        // Store the original position of the element
+        var newPosition = $("#phase1_jam").position().left;
+        console.log("new pos: " + newPosition);
+        $("#phase1_tgn_jam").css("--new-position", newPosition);
+
+        $(".phase1_tgn_jam").addClass("slide-left");
+        $(".phase1_tgn_jam").removeClass("slide-right");
+
+        setTimeout(function () {
+            $(".phase1_tgn_jam").removeClass("slide-left");
+        }, 1500);
+    });
+});
+
+gsap.registerPlugin(ScrollTrigger);
+
+function animateDrawerItem(items) {
+    items.forEach((item) => {
+        gsap.from("#" + item, {
+            yPercent: 80,
+            scrollTrigger: {
+                trigger: "#" + item,
+                start: "top bottom",
+                end: "top bottom",
+                scrub: 1,
+            },
+        });
+    });
+}
+
+function animateCoffeePour() {
+    gsap.to("#phase1_pour", {
+        yPercent: 20,
+        ease: "power1.inOut",
+        scrollTrigger: {
+            trigger: "#phase1_pour",
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1,
+        },
+    });
+}
+
+function animateClock() {
+    gsap.from("#phase1_jam", {
+        yPercent: 50,
+        ease: "power1.out",
+        scrollTrigger: {
+            trigger: "#phase1_jam",
+            start: "top bottom",
+            end: "top center",
+            scrub: 1,
+        },
+    });
+
+    gsap.utils.toArray(".jarum_jam").forEach((needle) => {
+        gsap.from(needle, {
+            yPercent: 300,
+            ease: "power1.out",
+            scrollTrigger: {
+                trigger: "#phase1_jam",
+                start: "center bottom",
+                end: "center center",
+                scrub: 1,
+            },
+        });
+    });
+}
+
+animateCoffeePour();
+animateDrawerItem([
+    "phase1_kertas_laci_1",
+    "phase1_kertas_laci_2",
+    "phase1_kertas_laci_3",
+    "phase1_kertas_laci_4",
+]);
+animateClock();

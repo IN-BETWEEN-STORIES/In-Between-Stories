@@ -100,3 +100,13 @@
     }
 } */
 
+.slide-right {
+    transform: translateX(500px) !important; /* ini aku msh gatau px e brp */
+    transition: transform 1s ease-in-out;
+}
+.slide-left {
+    transform: translateX(
+        calc(var(--original-position) - var(--new-position)) * 1px
+    ) !important;
+    transition: transform 1s ease-in-out;
+}

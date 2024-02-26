@@ -16,7 +16,7 @@
 
     {{-- Tanaman ijo sebelah kanan (balik e jam) --}}
     <img src="{{ asset('/assets/home/new_phase1/tanaman_depan_tangan_kopi.png') }}" alt="Tanaman Depan"
-        id="phase1_tanaman_depan" class="absolute w-[30%] top-[25.75%] right-0 z-[3]" loading="eager">
+        id="phase1_tanaman_depan" class="absolute w-[30%] top-[25.75%] right-0 z-[6]" loading="eager">
 
     {{-- Foto kirine jam --}}
     <img src="{{ asset('/assets/home/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri"
@@ -50,47 +50,58 @@
 
     {{-- Koper & Lemari --}}
     <img src="{{ asset('/assets/home/new_phase1/koper_lemari.png') }}" alt="Koper & Lemari" id="phase1_koper_lemari"
-        class="absolute w-[95%] top-[41.5%] right-0 z-[4]" loading="lazy">
+        class="absolute w-[95%] top-[41.5%] right-0 z-[6]" loading="lazy">
 
     {{-- isi laci atas --}}
     <div>
         {{-- Laci 1 --}}
         <img src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 1" id="phase1_laci_1"
-            class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[6]" loading="lazy">
+            class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[8]" loading="lazy">
 
+        {{-- block dummy buat test tgn pegang jam --}}
+        <div class="absolute top-[35%] left-[80%] z-[7] cursor-pointer" id="dummy1"
+            style="background-color: red; width: 50px; height: 50px;"></div>
+
+        {{-- container tgn pegang jam --}}
+        {{-- <div id="tgn_jam_container"> --}}
         {{-- Jam --}}
         <img src="{{ asset('/assets/home/new_phase1/jam.png') }}" alt="Jam" id="phase1_jam"
-            class="absolute w-[31.75%] top-[21.75%] left-[68.5%] z-[6]" loading="lazy">
+            class="absolute w-[31.75%] top-[21.75%] left-[68.5%] z-[7] cursor-pointer phase1_tgn_jam" loading="lazy">
 
         {{-- Jarum jam --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam.png') }}" alt="Jam" id="phase1_jarum_jam"
-            class="absolute w-[8.5%] top-[30.6%] left-[82.5%] z-[6]" loading="lazy">
+        <img src="{{ asset('/assets/home/new_phase1/jarum_jam.png') }}" alt="Jarum Jam 1" id="phase1_jarum_jam"
+            class="absolute w-[8.5%] top-[30.6%] left-[82.5%] z-[7] cursor-pointer phase1_tgn_jam jarum_jam"
+            loading="lazy">
 
         {{-- Jarum jam 2 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_2.png') }}" alt="Jam" id="phase1_jarum_jam_2"
-            class="absolute w-[12.5%] top-[29.75%] left-[80.5%] z-[6]" loading="lazy">
+        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_2.png') }}" alt="Jarum Jam 2" id="phase1_jarum_jam_2"
+            class="absolute w-[12.5%] top-[29.75%] left-[80.5%] z-[7] cursor-pointer phase1_tgn_jam jarum_jam"
+            loading="lazy">
 
         {{-- Jarum jam 3 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_3.png') }}" alt="Jam" id="phase1_jarum_jam_2"
-            class="absolute w-[8.5%] top-[29.75%] left-[80.6%] z-[6]" loading="lazy">
+        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_3.png') }}" alt="Jarum Jam 3" id="phase1_jarum_jam_3"
+            class="absolute w-[8.5%] top-[29.75%] left-[80.6%] z-[7] cursor-pointer phase1_tgn_jam jarum_jam"
+            loading="lazy">
 
         {{-- Jarum jam 4 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_4.png') }}" alt="Jam" id="phase1_jarum_jam_2"
-            class="absolute w-[10%] top-[32.1%] left-[77.5%] z-[6]" loading="lazy">
+        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_4.png') }}" alt="Jarum Jam 4" id="phase1_jarum_jam_4"
+            class="absolute w-[10%] top-[32.1%] left-[77.5%] z-[7] cursor-pointer phase1_tgn_jam jarum_jam"
+            loading="lazy">
 
         {{-- Kertas laci 1 --}}
         <img src="{{ asset('/assets/home/new_phase1/kertas_laci_1.png') }}" alt="Kertas Laci 1"
-            id="phase1_kertas_laci_1" class="absolute w-[25%] top-[38.5%] left-[55%] z-[5]" loading="lazy">
+            id="phase1_kertas_laci_1" class="absolute w-[25%] top-[38.5%] left-[55%] z-[6]" loading="lazy">
+        {{-- </div> --}}
     </div>
 
     {{-- isi laci tengah --}}
     <div>
         {{-- Laci 2 --}}
         <img src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 2" id="phase1_laci_2"
-            class="absolute w-[79.5%] top-[55.15%] right-[-9.5%] z-[8]" loading="lazy">
+            class="absolute w-[79.5%] top-[55.15%] right-[-9.5%] z-[9]" loading="lazy">
         {{-- Kertas laci 2 --}}
         <img src="{{ asset('/assets/home/new_phase1/kertas_laci_2.png') }}" alt="Laci" id="phase1_kertas_laci_2"
-            class="absolute w-[32%] top-[48%] left-[31%] z-[7]" loading="lazy">
+            class="absolute w-[32%] top-[48%] left-[31%] z-[8]" loading="lazy">
     </div>
 
     {{-- isi laci bawah --}}
