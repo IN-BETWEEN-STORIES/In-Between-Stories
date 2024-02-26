@@ -4,9 +4,9 @@
 <section id="phase1" class="relative w-full">
     <img src="{{ asset('/assets/home/new_phase1/background.jpg') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
         class="w-screen z-[1]">
-    
-    <img src="{{ asset('/assets/home/new_phase1/kertas teks.png') }}" alt="Kertas Teks" id="phase1_kertasText" loading="eager"
-        class="absolute h-full top-0 left-[-28%] z-[30]">
+
+    <img src="{{ asset('/assets/home/new_phase1/kertas teks.png') }}" alt="Kertas Teks" id="phase1_kertasText"
+        loading="eager" class="absolute h-full top-0 left-[-28%] z-[30]">
 
     {{-- Gedung 3 --}}
     <img src="{{ asset('/assets/home/new_phase1/gedung3.png') }}" alt="Gedung 3" id="phase1_gedung3"

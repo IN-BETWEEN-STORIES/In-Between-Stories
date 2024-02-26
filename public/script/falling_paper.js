@@ -54,50 +54,57 @@ const MOVEMENT = {
     ];
 
     elements.forEach((element) => {
-        initFallingAnimation(element);
+        element.target.onload = () => {
+            initFallingAnimation(element);
+        };
     });
 
     // paper 2
-    const config = {
-        scrollTrigger: {
-            trigger: "#phase1_kertas_jatuh_2",
-            start: "top 40%",
-            end: "500% top",
-            scrub: 0.3,
-            ease: "power2.out",
-        },
-    };
-    const tl = gsap.timeline(config);
-
     const id = "#phase1_kertas_jatuh_2";
-    const paper2TopPos = getElementPosition(document.querySelector(id), "top");
-    const paper2LeftPos = getElementPosition(
-        document.querySelector(id),
-        "left"
-    );
-    console.log(paper2TopPos);
-    tl.set(id, { transformOrigin: "50% 80%" })
-        .to(id, {
-            rotation: -10,
-            top: `${paper2TopPos + 2.5}%`,
-            left: `${paper2LeftPos - 3}%`,
-            duration: 1,
-        })
-        .to(id, { rotation: -55, duration: 1 })
-        .set(id, { zIndex: 5 })
-        .to(id, {
-            top: `${paper2TopPos + 9}%`,
-            left: `${paper2LeftPos - 6}%`,
-            rotation: -75,
-            zIndex: 6,
-            duration: 2,
-        })
-        .to(id, {
-            top: `${paper2TopPos + 35}%`,
-            left: `${paper2LeftPos - 9}%`,
-            rotation: -10,
-            duration: 11,
-        });
+    document.querySelector(id).onload = () => {
+        const config = {
+            scrollTrigger: {
+                trigger: id,
+                start: "top 40%",
+                end: "500% top",
+                scrub: 0.3,
+                ease: "power2.out",
+            },
+        };
+        const tl = gsap.timeline(config);
+
+        const paper2TopPos = getElementPosition(
+            document.querySelector(id),
+            "top"
+        );
+        const paper2LeftPos = getElementPosition(
+            document.querySelector(id),
+            "left"
+        );
+        console.log(paper2TopPos);
+        tl.set(id, { transformOrigin: "50% 80%" })
+            .to(id, {
+                rotation: -10,
+                top: `${paper2TopPos + 2.5}%`,
+                left: `${paper2LeftPos - 3}%`,
+                duration: 1,
+            })
+            .to(id, { rotation: -55, duration: 1 })
+            .set(id, { zIndex: 5 })
+            .to(id, {
+                top: `${paper2TopPos + 9}%`,
+                left: `${paper2LeftPos - 6}%`,
+                rotation: -75,
+                zIndex: 6,
+                duration: 2,
+            })
+            .to(id, {
+                top: `${paper2TopPos + 35}%`,
+                left: `${paper2LeftPos - 9}%`,
+                rotation: -10,
+                duration: 11,
+            });
+    };
 })();
 
 /**
