@@ -12,6 +12,20 @@
     clip-path: inset(0 0 35% 0);
 }
 
+/* static animation tas */
+#phase1_tas_ijo{
+    animation: hoveringAnimation1 12s infinite ease-in-out;
+}
+
+#phase1_tas_merah{
+    animation: hoveringAnimation2 20s infinite ease-in-out;
+}
+
+#phase1_tas_orange{
+    animation: hoveringAnimation3 15s infinite ease-in-out;
+}
+/* close static animation tas */
+
 /* Desktop */
 @keyframes mug_animation {
     0% {
@@ -39,6 +53,62 @@
         clip-path: inset(0 0 21% 0);
     }
 }
+
+/* Hovering Animation buat tas */
+@keyframes hoveringAnimation1 {
+    0% {
+        transform: translate3d(0, 0, 0);
+        }
+        25% {
+        transform: translate3d(0, -10px, 0);
+        }
+        50% {
+        transform: translate3d(0, 0, 0);
+        }
+        75% {
+        transform: translate3d(0px, 10px, 0);
+        }
+        100% {
+        transform: translate3d(0, 0, 0);
+        }
+}
+
+@keyframes hoveringAnimation2 {
+    0% {
+    transform: translate3d(0, 0, 0);
+    }
+    25% {
+    transform: translate3d(-10px, -10px, 0);
+    }
+    50% {
+    transform: translate3d(-20px, 0, 0);
+    }
+    75% {
+    transform: translate3d(-10px, 10px, 0);
+    }
+    100% {
+    transform: translate3d(0, 0, 0);
+    }
+}
+  
+@keyframes hoveringAnimation3 {
+    0% {
+        transform: translate3d(0, 0, 0);
+        }
+        25% {
+        transform: translate3d(-10px, -10px, 0);
+        }
+        50% {
+        transform: translate3d(-20px, 0, 0);
+        }
+        75% {
+        transform: translate3d(-10px, 10px, 0);
+        }
+        100% {
+        transform: translate3d(0, 0, 0);
+        }
+}
+/* Close Hovering Animation buat tas */
 
 /* Tablet */
 /* @media screen and (max-width: 992px) {
