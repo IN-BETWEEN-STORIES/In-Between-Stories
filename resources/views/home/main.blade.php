@@ -64,6 +64,7 @@
     <script src="{{ asset('/script/coffee.js') }}"></script>
     <script src="{{ asset('/script/drawer.js') }}"></script>
     <script src="{{ asset('/script/clock.js') }}"></script>
+    <script src="{{ asset('/script/text_paper.js') }}"></script>
 </body>
 
 </html>
