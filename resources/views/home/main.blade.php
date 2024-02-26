@@ -59,6 +59,9 @@
 
     <script src="{{ asset('/script/home.js') }}"></script>
     <script src="{{ asset('/script/falling_paper.js') }}" defer></script>
+    <script src="{{ asset('/script/coffee.js') }}"></script>
+    <script src="{{ asset('/script/drawer.js') }}"></script>
+    <script src="{{ asset('/script/clock.js') }}"></script>
 </body>
 
 </html>

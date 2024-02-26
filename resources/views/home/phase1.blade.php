@@ -1,3 +1,5 @@
+<section class="h-[100vh]"></section> {{-- gae ngetes scroll --}}
+
 <section id="phase1" class="relative w-full">
     <img src="{{ asset('/assets/home/new_phase1/background.jpg') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
         class="w-screen z-[1]">
