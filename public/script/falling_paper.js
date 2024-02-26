@@ -84,11 +84,12 @@ const MOVEMENT = {
             duration: 1,
         })
         .to(id, { rotation: -55, duration: 1 })
+        .set(id, { zIndex: 5 })
         .to(id, {
             top: `${paper2TopPos + 9}%`,
             left: `${paper2LeftPos - 6}%`,
             rotation: -75,
-            zIndex: 4,
+            zIndex: 6,
             duration: 2,
         })
         .to(id, {
