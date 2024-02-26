@@ -111,19 +111,19 @@ function animateClock() {
         scrollTrigger: {
             trigger: "#phase1_jam",
             start: "top bottom",
-            end: "top center",
+            end: "top 60%",
             scrub: 1,
         },
     });
 
     gsap.utils.toArray(".jarum_jam").forEach((needle) => {
         gsap.from(needle, {
-            yPercent: 300,
-            ease: "power1.out",
+            yPercent: 700,
+            ease: "power1.inOut",
             scrollTrigger: {
                 trigger: "#phase1_jam",
-                start: "center bottom",
-                end: "center center",
+                start: "top bottom",
+                end: "center 60%",
                 scrub: 1,
             },
         });
