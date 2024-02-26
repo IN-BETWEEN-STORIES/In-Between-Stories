@@ -52,7 +52,7 @@
 
 <body>
     <main class="w-screen h-fit">
-        @include('home.phase1')
+        @include('home.phase1_compressed')
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>

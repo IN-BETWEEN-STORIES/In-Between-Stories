@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home.main');
 });
+Route::get('/compressed', function() {
+    return view('home.compressed');
+});
