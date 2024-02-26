@@ -10,5 +10,20 @@ function animateCoffeePour() {
         },
     });
 }
-
 animateCoffeePour();
+
+// Slide right on click
+const coffeeGroup = document.querySelectorAll(".coffee_grp");
+const placeholder = document.getElementById("coffee_grp_placeholder");
+
+function togglePosition() {
+    coffeeGroup.forEach((e) => {
+        e.classList.toggle("slide-right");
+    });
+}
+
+coffeeGroup.forEach((elem) => {
+    elem.addEventListener("click", () => togglePosition());
+});
+
+placeholder.addEventListener("click", () => togglePosition());

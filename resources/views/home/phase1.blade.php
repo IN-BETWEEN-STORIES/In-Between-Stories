@@ -1,4 +1,5 @@
-<section class="h-[100vh]"></section> {{-- gae ngetes scroll --}}
+{{-- gae ngetes scroll --}}
+{{-- <section class="h-[100vh]"></section> --}}
 
 <section id="phase1" class="relative w-full">
     <img src="{{ asset('/assets/home/new_phase1/background.jpg') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
@@ -26,18 +27,24 @@
 
     {{-- cangkir & tangannya --}}
     <div>
+        <div class="bg-[#ff0000] w-10 h-10 absolute top-[10%] left-[50%] z-[3] cursor-pointer"
+            id="coffee_grp_placeholder"></div>
         {{-- Cangkir belakang --}}
         <img src="{{ asset('/assets/home/new_phase1/kopi_belakang.png') }}" alt="Kopi" id="phase1_kopi_belakang"
-            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[3]" loading="eager">
+            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[3] coffee_grp cursor-pointer transition-all duration-[1500ms]"
+            loading="eager">
         {{-- Coffee Pour --}}
         <img src="{{ asset('/assets/home/new_phase1/coffe_pour.png') }}" alt="Coffee Pour" id="phase1_pour"
-            class="absolute w-[8.5%] top-[-16.75%] left-[49%] z-[4]" loading="eager">
+            class="absolute w-[8.5%] top-[-16.75%] left-[49%] z-[4] coffee_grp cursor-pointer transition-all duration-[1500ms]"
+            loading="eager">
         {{-- Cangkir depan --}}
         <img src="{{ asset('/assets/home/new_phase1/kopi_depan.png') }}" alt="Kopi" id="phase1_kopi_depan"
-            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[5]" loading="eager">
+            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[5] coffee_grp cursor-pointer transition-all duration-[1500ms]"
+            loading="eager">
         {{-- Tangan megang kopi --}}
         <img src="{{ asset('/assets/home/new_phase1/tangan_kopi.png') }}" alt="Kopi" id="phase1_tangan_kopi"
-            class="absolute w-[67%] top-[8.25%] left-[31.5%] z-[5]" loading="eager">
+            class="absolute w-[67%] top-[8.25%] left-[31.5%] z-[5] coffee_grp cursor-pointer transition-all duration-[1500ms]"
+            loading="eager">
     </div>
 
     {{-- anting2 --}}

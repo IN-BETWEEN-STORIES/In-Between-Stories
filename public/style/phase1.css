@@ -101,7 +101,7 @@
 } */
 
 .slide-right {
-    transform: translateX(500px) !important; /* ini aku msh gatau px e brp */
+    transform: translateX(100vw) !important; /* ini aku msh gatau px e brp */
     transition: transform 1s ease-in-out;
 }
 .slide-left {
