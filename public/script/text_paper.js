@@ -18,8 +18,9 @@ $(document).ready(function () {
     gsap.from("#phase1_kertasText", {
         scrollTrigger: {
             trigger: "#phase1_kertas_laci_2",
-            start: "center center",
+            start: "top 80%",
             end: "=+700",
+            // markers: true,
         },
         x: "-35%",
         duration: 5
