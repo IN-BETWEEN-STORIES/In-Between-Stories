@@ -242,13 +242,13 @@
         <div>
             {{-- Orange --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_oren.png') }}" alt="Tas Orange"
-                id="phase1_tas_orange" class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load"
-                loading="lazy">
+                id="phase1_tas_orange"
+                class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load" loading="lazy">
 
             {{-- Merah --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_merah.png') }}" alt="Tas Merah"
-                id="phase1_tas_merah" class="absolute w-[15%] bottom-[12.75%] right-[32%] z-[15] lazy-load"
-                loading="lazy">
+                id="phase1_tas_merah"
+                class="absolute w-[15%] bottom-[12.75%] right-[32%] z-[15] lazy-load" loading="lazy">
 
             {{-- Ijo --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo"

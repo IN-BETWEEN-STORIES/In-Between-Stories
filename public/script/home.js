@@ -47,6 +47,8 @@ function dragElement(elmnt) {
 }
 
 $(document).ready(function () {
+
+    // start tgn pegang jam
     // Store the original position of the element
     var originalPosition = $("#phase1_jam").position().left;
     console.log("ori pos: " + originalPosition);
@@ -55,7 +57,7 @@ $(document).ready(function () {
     $("#phase1_tgn_jam").css("--original-position", originalPosition);
 
     // tgn pegang jam slide to right on click
-    $(".phase1_tgn_jam").on("click", function (e) {
+    $(".phase1_tgn_jam").on("click", function () {
         $(".phase1_tgn_jam").addClass("slide-right");
         $(".phase1_tgn_jam").removeClass("slide-left");
     });
@@ -73,4 +75,45 @@ $(document).ready(function () {
             $(".phase1_tgn_jam").removeClass("slide-left");
         }, 1500);
     });
+    // end tgn pegang jam
+
+    function zoom(tas1, tas2, tas3) {
+        animation1 = 'hoveringAnimation1 12s infinite ease-in-out'
+        animation2 = 'hoveringAnimation2 20s infinite ease-in-out'
+        animation3 = 'hoveringAnimation3 15s infinite ease-in-out'
+
+        if ((tas1).hasClass('zoomed-in')) {
+            if (tas1.is('#phase1_tas_ijo')) {
+                $(tas1).css('animation', animation1);
+            }
+            else if (tas1.is('#phase1_tas_merah')) {
+                $(tas1).css('animation', animation2);
+            }
+            else if (tas1.is('#phase1_tas_orange')) {
+                $(tas1).css('animation', animation3);
+            }
+
+            // zoom out tas ijo, orange
+            // $(tas2).css('animation', 'none');
+        }
+        else {
+            $(tas1).css('animation', 'none');
+        }
+        $(tas1).toggleClass('zoomed-in');
+
+    }
+    tasIjo = $('#phase1_tas_ijo')
+    tasMerah = $('#phase1_tas_merah')
+    tasOrange = $('#phase1_tas_orange')
+
+    tasIjo.on('click', function(){
+        zoom(tasIjo, tasMerah, tasOrange)
+    })
+    tasMerah.on('click', function(){
+        zoom(tasMerah, tasOrange, tasIjo)
+    })
+    tasOrange.on('click', function(){
+        zoom(tasOrange, tasIjo, tasMerah)
+    })
+
 });
