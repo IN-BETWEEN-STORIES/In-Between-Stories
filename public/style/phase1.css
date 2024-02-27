@@ -30,12 +30,14 @@
 }
 /* close static animation tas */
 
-/* start tas zoom on click */
+/* scale buat 3 tas */
 .zoomed-in {
     transform: scale(1.1);
     z-index: 20 !important;
 }
-/* end tas zoom on click */
+.zoomed-out {
+    transform: scale(0.8);
+}
 
 /* Desktop */
 @keyframes mug_animation {
