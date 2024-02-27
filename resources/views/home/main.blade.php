@@ -65,6 +65,7 @@
     <script src="{{ asset('/script/drawer.js') }}"></script>
     <script src="{{ asset('/script/clock.js') }}"></script>
     <script src="{{ asset('/script/text_paper.js') }}"></script>
+    <script src="{{ asset('/script/maureen.js') }}"></script>
 </body>
 
 </html>

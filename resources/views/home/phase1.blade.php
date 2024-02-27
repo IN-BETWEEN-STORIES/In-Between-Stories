@@ -6,7 +6,7 @@
         class="w-screen z-[1]">
     
     <img src="{{ asset('/assets/home/new_phase1/kertas teks.png') }}" alt="Kertas Teks" id="phase1_kertasText" loading="eager"
-        class="absolute h-full top-0 left-[-28%] z-[30]">
+        class="absolute h-full top-0 left-[-28%] z-[30] cursor-pointer">
 
     {{-- Gedung 3 --}}
     <img src="{{ asset('/assets/home/new_phase1/gedung3.png') }}" alt="Gedung 3" id="phase1_gedung3"
@@ -48,7 +48,11 @@
 
     {{-- Foto kirine jam --}}
     <img data-src="{{ asset('/assets/home/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri"
-        class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[4] lazy-load" loading="lazy">
+        class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[4] cursor-pointer lazy-load" loading="lazy">
+
+    {{-- block dummy buat test maureen --}}
+    <div class="absolute w-[51.5%] top-[35%] left-[42%] z-[3] cursor-pointer" id="dummymaureen"
+    style="background-color: red; width: 50px; height: 50px;"></div>
 
     {{-- anting2 --}}
     <div>
