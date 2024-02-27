@@ -4,9 +4,9 @@
 <section id="phase1" class="relative w-full">
     <img src="{{ asset('/assets/home/new_phase1/background.jpg') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
         class="w-screen z-[1]">
-    
-    <img src="{{ asset('/assets/home/new_phase1/kertas teks.png') }}" alt="Kertas Teks" id="phase1_kertasText" loading="eager"
-        class="absolute h-full top-0 left-[-28%] z-[30] cursor-pointer">
+
+    <img src="{{ asset('/assets/home/new_phase1/kertas teks.png') }}" alt="Kertas Teks" id="phase1_kertasText"
+        loading="eager" class="absolute h-full top-0 left-[-28%] z-[30]">
 
     {{-- Gedung 3 --}}
     <img src="{{ asset('/assets/home/new_phase1/gedung3.png') }}" alt="Gedung 3" id="phase1_gedung3"
@@ -246,13 +246,13 @@
         <div>
             {{-- Orange --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_oren.png') }}" alt="Tas Orange"
-                id="phase1_tas_orange" class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load"
-                loading="lazy">
+                id="phase1_tas_orange"
+                class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load" loading="lazy">
 
             {{-- Merah --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_merah.png') }}" alt="Tas Merah"
-                id="phase1_tas_merah" class="absolute w-[15%] bottom-[12.75%] right-[32%] z-[15] lazy-load"
-                loading="lazy">
+                id="phase1_tas_merah"
+                class="absolute w-[15%] bottom-[12.75%] right-[32%] z-[15] lazy-load" loading="lazy">
 
             {{-- Ijo --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo"
