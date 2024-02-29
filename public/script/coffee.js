@@ -16,14 +16,18 @@ animateCoffeePour();
 const coffeeGroup = document.querySelectorAll(".coffee_grp");
 const placeholder = document.getElementById("coffee_grp_placeholder");
 
-function togglePosition() {
-    coffeeGroup.forEach((e) => {
-        e.classList.toggle("slide-right");
-    });
-}
-
 coffeeGroup.forEach((elem) => {
-    elem.addEventListener("click", () => togglePosition());
+    elem.addEventListener("click", () => {
+        coffeeGroup.forEach((e) => {
+            e.style.transform = "translateX(100vw)";
+            e.style.transition = "1.5s ease-in-out";
+        });
+    });
 });
 
-placeholder.addEventListener("click", () => togglePosition());
+placeholder.addEventListener("click", () =>
+    coffeeGroup.forEach((elem) => {
+        elem.style.transform = "translateX(0)";
+        elem.style.transition = "1.5s ease-out";
+    })
+);

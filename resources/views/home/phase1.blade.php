@@ -2,18 +2,18 @@
 <section class="h-[100vh]"></section>
 
 <section id="phase1" class="relative w-full">
-    <img src="{{ asset('/assets/home/new_phase1/background.jpg') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
+    <img src="{{ asset('/assets/home/new_phase1/background.webp') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
         class="w-screen z-[1]">
 
-    <img src="{{ asset('/assets/home/new_phase1/kertas teks.png') }}" alt="Kertas Teks" id="phase1_kertasText"
+    <img src="{{ asset('/assets/home/new_phase1/kertas teks.webp') }}" alt="Kertas Teks" id="phase1_kertasText"
         loading="eager" class="absolute h-full top-0 left-[-28%] z-[30] cursor-pointer">
 
     {{-- Gedung 3 --}}
-    <img src="{{ asset('/assets/home/new_phase1/gedung3.png') }}" alt="Gedung 3" id="phase1_gedung3"
+    <img src="{{ asset('/assets/home/new_phase1/gedung3.webp') }}" alt="Gedung 3" id="phase1_gedung3"
         class="absolute w-[99%] top-0 right-[-7.4%] z-[2]" loading="eager">
 
     {{-- Gedung 2 --}}
-    <img src="{{ asset('/assets/home/new_phase1/gedung2.png') }}" alt="Gedung 2" id="phase1_gedung2"
+    <img src="{{ asset('/assets/home/new_phase1/gedung2.webp') }}" alt="Gedung 2" id="phase1_gedung2"
         class="absolute w-[72%] top-[12.55%] right-[-13.7%] z-[2]" loading="eager">
 
     {{-- cangkir & tangannya --}}
@@ -21,29 +21,25 @@
         <div class="bg-[#ff0000] w-10 h-10 absolute top-[10%] left-[50%] z-[3] cursor-pointer"
             id="coffee_grp_placeholder"></div>
         {{-- Cangkir belakang --}}
-        <img src="{{ asset('/assets/home/new_phase1/kopi_belakang.png') }}" alt="Kopi" id="phase1_kopi_belakang"
-            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[3] coffee_grp cursor-pointerp"
-            loading="eager">
+        <img src="{{ asset('/assets/home/new_phase1/kopi_belakang.webp') }}" alt="Kopi" id="phase1_kopi_belakang"
+            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[3] coffee_grp cursor-pointer" loading="eager">
         {{-- Coffee Pour --}}
         <img src="{{ asset('/assets/home/new_phase1/coffe_pour.png') }}" alt="Coffee Pour" id="phase1_pour"
-            class="absolute w-[8.5%] top-[-16.75%] left-[49%] z-[4] coffee_grp cursor-pointerp"
-            loading="eager">
+            class="absolute w-[8.5%] top-[-16.75%] left-[49%] z-[4] coffee_grp cursor-pointer" loading="eager">
         {{-- Cangkir depan --}}
-        <img src="{{ asset('/assets/home/new_phase1/kopi_depan.png') }}" alt="Kopi" id="phase1_kopi_depan"
-            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[5] coffee_grp cursor-pointerp"
-            loading="eager">
+        <img src="{{ asset('/assets/home/new_phase1/kopi_depan.webp') }}" alt="Kopi" id="phase1_kopi_depan"
+            class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[5] coffee_grp cursor-pointer" loading="eager">
         {{-- Tangan megang kopi --}}
-        <img src="{{ asset('/assets/home/new_phase1/tangan_kopi.png') }}" alt="Kopi" id="phase1_tangan_kopi"
-            class="absolute w-[67%] top-[8.25%] left-[31.5%] z-[5] coffee_grp cursor-pointerp"
-            loading="eager">
+        <img src="{{ asset('/assets/home/new_phase1/tangan_kopi.webp') }}" alt="Kopi" id="phase1_tangan_kopi"
+            class="absolute w-[67%] top-[8.25%] left-[31.5%] z-[5] coffee_grp cursor-pointer" loading="eager">
     </div>
 
     {{-- Gedung 1 --}}
-    <img data-src="{{ asset('/assets/home/new_phase1/gedung1.png') }}" alt="Gedung 1" id="phase1_gedung1"
+    <img data-src="{{ asset('/assets/home/new_phase1/gedung1.webp') }}" alt="Gedung 1" id="phase1_gedung1"
         class="absolute w-[31%] top-[20.2%] left-[24.5%] z-[2] lazy-load" loading="lazy">
 
     {{-- Tanaman ijo sebelah kanan (balik e jam) --}}
-    <img data-src="{{ asset('/assets/home/new_phase1/tanaman_depan_tangan_kopi.png') }}" alt="Tanaman Depan"
+    <img data-src="{{ asset('/assets/home/new_phase1/tanaman_depan_tangan_kopi.webp') }}" alt="Tanaman Depan"
         id="phase1_tanaman_depan" class="absolute w-[30%] top-[25.75%] right-0 z-[6] lazy-load" loading="lazy">
 
     {{-- Foto kirine jam --}}
@@ -52,7 +48,7 @@
 
     {{-- block dummy buat test maureen --}}
     <div class="absolute w-[51.5%] top-[35%] left-[42%] z-[3] cursor-pointer" id="dummymaureen"
-    style="background-color: red; width: 50px; height: 50px;"></div>
+        style="background-color: red; width: 50px; height: 50px;"></div>
 
     {{-- anting2 --}}
     <div>
@@ -65,13 +61,13 @@
     </div>
 
     {{-- Koper & Lemari --}}
-    <img data-src="{{ asset('/assets/home/new_phase1/koper_lemari.png') }}" alt="Koper & Lemari"
+    <img data-src="{{ asset('/assets/home/new_phase1/koper_lemari.webp') }}" alt="Koper & Lemari"
         id="phase1_koper_lemari" class="absolute w-[95%] top-[41.5%] right-0 z-[6] lazy-load" loading="lazy">
 
     {{-- isi laci atas --}}
     <div>
         {{-- Laci 1 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 1" id="phase1_laci_1"
+        <img data-src="{{ asset('/assets/home/new_phase1/laci.webp') }}" alt="Laci 1" id="phase1_laci_1"
             class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[8] lazy-load" loading="lazy">
 
         {{-- block dummy buat test tgn pegang jam --}}
@@ -79,7 +75,7 @@
             style="background-color: red; width: 50px; height: 50px;"></div>
 
         {{-- Jam --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/jam.png') }}" alt="Jam" id="phase1_jam"
+        <img data-src="{{ asset('/assets/home/new_phase1/jam.webp') }}" alt="Jam" id="phase1_jam"
             class="absolute w-[31.75%] top-[21.75%] left-[68.5%] z-[7] cursor-pointer phase1_tgn_jam lazy-load"
             loading="lazy">
 
@@ -114,7 +110,7 @@
     {{-- isi laci tengah --}}
     <div>
         {{-- Laci 2 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 2" id="phase1_laci_2"
+        <img data-src="{{ asset('/assets/home/new_phase1/laci.webp') }}" alt="Laci 2" id="phase1_laci_2"
             class="absolute w-[79.5%] top-[55.15%] right-[-9.5%] z-[9] lazy-load" loading="lazy">
         {{-- Kertas laci 2 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_laci_2.png') }}" alt="Laci"
@@ -124,15 +120,15 @@
     {{-- isi laci bawah --}}
     <div>
         {{-- Laci 3 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/laci.png') }}" alt="Laci 3" id="phase1_laci_3"
+        <img data-src="{{ asset('/assets/home/new_phase1/laci.webp') }}" alt="Laci 3" id="phase1_laci_3"
             class="absolute w-[79.5%] top-[65.84%] right-[-9.5%] z-[11] lazy-load" loading="lazy">
         {{-- Kertas laci 3 / kertas --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_laci_3.png') }}" alt="Kertas Laci 3"
-            id="phase1_kertas_laci_3" class="absolute w-[33%] top-[59.02%] left-[66%] z-[9] lazy-load"
+            id="phase1_kertas_laci_3" class="absolute w-[33%] top-[59.02%] left-[66%] z-[9] lazy-load cursor-pointer kertas_bawah"
             loading="lazy">
         {{-- Kertas laci 4 / bunga --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_laci_4.png') }}" alt="Bunga"
-            id="phase1_kertas_laci_4" class="absolute w-[24%] top-[59%] left-[75.1%] z-[10] lazy-load"
+            id="phase1_kertas_laci_4" class="absolute w-[24%] top-[59%] left-[75.1%] z-[10] lazy-load cursor-pointer kertas_bawah"
             loading="lazy">
     </div>
 
@@ -165,24 +161,24 @@
     </div>
 
     {{-- Background pasir --}}
-    <img data-src="{{ asset('/assets/home/new_phase1/bg_pasir_bawah.png') }}" alt="Background Pasir"
+    <img data-src="{{ asset('/assets/home/new_phase1/bg_pasir_bawah.webp') }}" alt="Background Pasir"
         id="phase1_bg_pasir" class="absolute w-full bottom-0 z-[5] lazy-load" loading="lazy">
 
     {{-- Gedung + koper bawah --}}
     <div>
         {{-- Gedung bawah --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/gedung_bawah.png') }}" alt="Gedung Bawah"
+        <img data-src="{{ asset('/assets/home/new_phase1/gedung_bawah.webp') }}" alt="Gedung Bawah"
             id="phase1_gedung_bawah" class="absolute w-[68%] bottom-[14.75%] left-0 z-[12] lazy-load" loading="lazy">
 
         {{-- Koper bawah --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/koper_bawah.png') }}" alt="Koper Bawah"
+        <img data-src="{{ asset('/assets/home/new_phase1/koper_bawah.webp') }}" alt="Koper Bawah"
             id="phase1_koper_bawah" class="absolute w-[63.5%] bottom-[9.5%] right-0 z-[11] lazy-load" loading="lazy">
     </div>
 
     {{-- Jalan bawah + orang" --}}
     <div>
         {{-- Jalan bawah --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/jalan_bawah.png') }}" alt="Jalan Bawah"
+        <img data-src="{{ asset('/assets/home/new_phase1/jalan_bawah.webp') }}" alt="Jalan Bawah"
             id="phase1_jalan_bawah" class="absolute w-[61%] bottom-0 z-[12] lazy-load" loading="lazy">
 
         {{-- Mobil ijo tua --}}
@@ -246,13 +242,13 @@
         <div>
             {{-- Orange --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_oren.png') }}" alt="Tas Orange"
-                id="phase1_tas_orange"
-                class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load" loading="lazy">
+                id="phase1_tas_orange" class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load"
+                loading="lazy">
 
             {{-- Merah --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_merah.png') }}" alt="Tas Merah"
-                id="phase1_tas_merah"
-                class="absolute w-[15%] bottom-[12.75%] right-[32%] z-[15] lazy-load" loading="lazy">
+                id="phase1_tas_merah" class="absolute w-[15%] bottom-[12.75%] right-[32%] z-[15] lazy-load"
+                loading="lazy">
 
             {{-- Ijo --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo"
