@@ -80,10 +80,6 @@
         transform: rotate(-15deg);
     }
 
-    /* 50% {
-        transform: rotate(0deg);
-    } */
-
     75% {
         transform: rotate(15deg);
     }
@@ -92,7 +88,9 @@
 
 
 #anting_kiri {
-    animation: swing-earring1 2s infinite linear;
+    transform-origin: top;
+    animation: swing-earring1 2.2s infinite linear;
+    -webkit-animation: swing-earring1 2.2s infinite linear;
 }
 
 /* anting2 */
@@ -101,11 +99,7 @@
     25% {
         transform: rotate(15deg);
     }
-
-    /* 50% {
-        transform: rotate(0deg);
-    } */
-
+    
     75% {
         transform: rotate(-15deg);
     }
@@ -113,7 +107,9 @@
 }
 
 #anting_kanan {
+    transform-origin: 50% 6%;
     animation: swing-earring2 2s infinite linear;
+    -webkit-animation: swing-earring2 2s infinite linear;
 }
 
 /* animasi jarum jam */
@@ -151,18 +147,33 @@
 /* mobil geter */
 @keyframes shake-car {
     0% {
-        transform: translateX(-2px) rotateZ(-1deg);
-    }
-
-    100% {
-        transform: translateX(2px) rotateZ(1deg);
-    }
+        transform: translateX(-1px) rotateZ(-0.5deg);
+        -webkit-transform: translateX(-1px) rotateZ(-0.5deg);
+        -moz-transform: translateX(-1px) rotateZ(-0.5deg);
+        -ms-transform: translateX(-1px) rotateZ(-0.5deg);
+        -o-transform: translateX(-1px) rotateZ(-0.5deg);
 }
 
-#phase1_mobil1,
-#phase1_mobil2,
+    100% {
+        transform: translateX(1px) rotateZ(0.5deg);
+        -webkit-transform: translateX(1px) rotateZ(0.5deg);
+        -moz-transform: translateX(1px) rotateZ(0.5deg);
+        -ms-transform: translateX(1px) rotateZ(0.5deg);
+        -o-transform: translateX(1px) rotateZ(0.5deg);
+}
+}
+
+#phase1_mobil1 {
+    animation: shake-car .13s infinite;
+    -webkit-animation: shake-car .13s infinite;
+}
+#phase1_mobil2 {
+    animation: shake-car .14s infinite;
+    -webkit-animation: shake-car .14s infinite;
+}
 #phase1_mobil3 {
-    animation: shake-car .1s infinite;
+    animation: shake-car .15s infinite;
+    -webkit-animation: shake-car .15s infinite;
 }
 
 /* Tablet */

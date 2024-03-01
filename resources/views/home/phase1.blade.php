@@ -18,7 +18,7 @@
 
     {{-- cangkir & tangannya --}}
     <div>
-        <div class="bg-[#ff0000] w-10 h-10 absolute top-[10%] left-[50%] z-[3] cursor-pointer"
+        <div class="bg-[#ff0000] w-[6vw] h-[6vw] absolute top-[10%] left-[50%] z-[3] cursor-pointer"
             id="coffee_grp_placeholder"></div>
         {{-- Cangkir belakang --}}
         <img src="{{ asset('/assets/home/new_phase1/kopi_belakang.webp') }}" alt="Kopi" id="phase1_kopi_belakang"
@@ -47,8 +47,8 @@
         class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[4] cursor-pointer lazy-load" loading="lazy">
 
     {{-- block dummy buat test maureen --}}
-    <div class="absolute w-[51.5%] top-[35%] left-[42%] z-[3] cursor-pointer" id="dummymaureen"
-        style="background-color: red; width: 50px; height: 50px;"></div>
+    <div class="absolute w-[51.5%] w-[6vw] h-[6vw] top-[35%] left-[42%] z-[3] cursor-pointer" id="dummymaureen"
+        style="background-color: red;"></div>
 
     {{-- anting2 --}}
     <div>
@@ -71,8 +71,8 @@
             class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[8] lazy-load" loading="lazy">
 
         {{-- block dummy buat test tgn pegang jam --}}
-        <div class="absolute top-[36%] left-[83%] z-[7] cursor-pointer" id="dummy1"
-            style="background-color: red; width: 50px; height: 50px;"></div>
+        <div class="absolute top-[36%] w-[6vw] h-[6vw] left-[83%] z-[7] cursor-pointer" id="dummy1"
+            style="background-color: red;"></div>
 
         {{-- Jam --}}
         <img data-src="{{ asset('/assets/home/new_phase1/jam.webp') }}" alt="Jam" id="phase1_jam"

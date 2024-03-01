@@ -25,6 +25,10 @@
     </script>
 
     <style>
+        html {
+            overflow-x: hidden;
+        }
+
         body {
             font-family: 'system-ui', sans-serif;
             overflow-x: hidden;
