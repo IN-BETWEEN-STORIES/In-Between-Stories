@@ -329,14 +329,21 @@
 
 /* slide untuk tgn pegang jam */
 .slide-right {
-    transform: translateX(100vw) !important;
-    /* ini aku msh gatau px e brp */
-    transition: transform 1s ease-in-out;
+    translate: 50vw 0;
+    transition: translate 1s ease-in-out;
+    -webkit-transition: translate 1s ease-in-out;
+    -moz-transition: translate 1s ease-in-out;
+    -ms-transition: translate 1s ease-in-out;
+    -o-transition: translate 1s ease-in-out;
 }
 
 .slide-left {
-    transform: translateX(calc(var(--original-position) - var(--new-position)) * 1px) !important;
-    transition: transform 1s ease-in-out;
+    translate: calc((var(--original-position) - var(--new-position)) * 1px) 0 !important;
+    transition: translate 1s ease-in-out;
+    -webkit-transition: translate 1s ease-in-out;
+    -moz-transition: translate 1s ease-in-out;
+    -ms-transition: translate 1s ease-in-out;
+    -o-transition: translate 1s ease-in-out;
 }
 
 .show-text-paper {
