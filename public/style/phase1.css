@@ -12,6 +12,35 @@
     clip-path: inset(0 0 35% 0);
 }
 
+/* static animation tas */
+#phase1_tas_ijo {
+    animation: hoveringAnimation1 12s infinite ease-in-out;
+    cursor: pointer;
+}
+
+#phase1_tas_merah {
+    animation: hoveringAnimation2 20s infinite ease-in-out;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#phase1_tas_orange {
+    animation: hoveringAnimation3 15s infinite ease-in-out;
+    cursor: pointer;
+}
+
+/* close static animation tas */
+
+/* scale buat 3 tas */
+.zoomed-in {
+    transform: scale(1.1);
+    z-index: 20 !important;
+}
+
+.zoomed-out {
+    transform: scale(0.8);
+}
+
 /* Desktop */
 @keyframes mug_animation {
     0% {
@@ -148,50 +177,94 @@
         100% {
             transform: translateY(0vh);
         }
+/* Hovering Animation buat tas */
+@keyframes hoveringAnimation1 {
+    0% {
+        transform: translate3d(0, 0, 0);
     }
 
-    @keyframes pour_animation {
-        0% {
-            transform: translateY(0vh);
-            clip-path: inset(0 0 9vh 0);
-        }
-        50% {
-            transform: translateY(-5vh);
-            clip-path: inset(0 0 0.5vh 0);
-        }
-        100% {
-            transform: translateY(0vh);
-            clip-path: inset(0 0 9vh 0);
-        }
-    }
-} */
-
-/* Phone */
-/* @media screen and (max-width: 576px) {
-    @keyframes mug_animation {
-        0% {
-            transform: translateY(0vh);
-        }
-        50% {
-            transform: translateY(5vh);
-        }
-        100% {
-            transform: translateY(0vh);
-        }
+    25% {
+        transform: translate3d(0, -10px, 0);
     }
 
-    @keyframes pour_animation {
-        0% {
-            transform: translateY(0vh);
-            clip-path: inset(0 0 9.75vh 0);
-        }
-        50% {
-            transform: translateY(-5vh);
-            clip-path: inset(0 0 0.5vh 0);
-        }
-        100% {
-            transform: translateY(0vh);
-            clip-path: inset(0 0 9.75vh 0);
-        }
+    50% {
+        transform: translate3d(0, 0, 0);
     }
-} */
+
+    75% {
+        transform: translate3d(0px, 10px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes hoveringAnimation2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    25% {
+        transform: translate3d(-10px, -10px, 0);
+    }
+
+    50% {
+        transform: translate3d(-20px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(-10px, 10px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes hoveringAnimation3 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    25% {
+        transform: translate3d(-10px, -10px, 0);
+    }
+
+    50% {
+        transform: translate3d(-20px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(-10px, 10px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Close Hovering Animation buat tas */
+
+/* slide untuk tgn pegang jam */
+.slide-right {
+    transform: translateX(100vw) !important;
+    /* ini aku msh gatau px e brp */
+    transition: transform 1s ease-in-out;
+}
+
+.slide-left {
+    transform: translateX(calc(var(--original-position) - var(--new-position)) * 1px) !important;
+    transition: transform 1s ease-in-out;
+}
+
+.show-text-paper {
+    transform: translateX(0) !important;
+    left: 0 !important;
+    transition: left 1s ease-in-out;
+}
+
+.bring-to-center {
+    transition: transform 1s ease-in-out;
+    transform: translateY(-40%) translateX(-20%) rotate(-15deg) !important;
+}
