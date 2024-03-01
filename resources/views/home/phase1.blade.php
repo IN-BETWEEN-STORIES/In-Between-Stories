@@ -275,5 +275,9 @@
             id="phase1_lebah_telpon" class="absolute w-[11%] bottom-[19.75%] right-[1.75%] z-[25] lazy-load"
             loading="lazy">
 
+        <img data-src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4" id="phase1_lebah_4"
+            class="absolute w-[11%] bottom-[19.25%] right-[38%] z-[25] lazy-load" loading="lazy">
+
+
     </div>
 </section>

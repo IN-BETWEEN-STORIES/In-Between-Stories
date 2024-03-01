@@ -176,6 +176,76 @@
     -webkit-animation: shake-car .15s infinite;
 }
 
+@keyframes beeFloat {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    10% {
+        transform: translate(-30px, -30px);
+    }
+
+    20% {
+        transform: translate(30px, -60px);
+    }
+
+    30% {
+        transform: translate(-30px, -90px);
+    }
+
+    40% {
+        transform: translate(30px, -120px);
+    }
+
+    50% {
+        transform: translate(-30px, -150px);
+    }
+
+    60% {
+        transform: translate(30px, -120px) scaleX(-1);
+    }
+
+    70% {
+        transform: translate(-30px, -90px) scaleX(-1);
+    }
+
+    80% {
+        transform: translate(30px, -60px) scaleX(-1);
+    }
+
+    90% {
+        transform: translate(-30px, -30px) scaleX(-1);
+    }
+
+
+
+}
+
+@keyframes swingBee {
+
+    0%,
+    100% {
+        transform: rotate(-15deg);
+    }
+
+    50% {
+        transform: rotate(15deg);
+    }
+}
+
+#phase1_lebah_4 {
+    transform: scaleX(-1);
+    animation: beeFloat 8s ease-in-out infinite;
+}
+
+#phase1_lebah_telpon {
+    animation: swingBee 2s infinite linear;
+
+}
+
+
 /* Tablet */
 /* @media screen and (max-width: 992px) {
     @keyframes mug_animation {
