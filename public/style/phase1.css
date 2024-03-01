@@ -17,9 +17,11 @@
     0% {
         transform: translateY(0%);
     }
+
     50% {
         transform: translateY(10%);
     }
+
     100% {
         transform: translateY(0%);
     }
@@ -30,14 +32,108 @@
         transform: translateY(0%);
         clip-path: inset(0 0 21% 0);
     }
+
     50% {
         transform: translateY(-5%);
         clip-path: inset(0 0 2% 0);
     }
+
     100% {
         transform: translateY(0%);
         clip-path: inset(0 0 21% 0);
     }
+}
+
+/* anting1 */
+@keyframes swing-earring1 {
+
+    25% {
+        transform: rotate(-15deg);
+    }
+
+    /* 50% {
+        transform: rotate(0deg);
+    } */
+
+    75% {
+        transform: rotate(15deg);
+    }
+
+}
+
+
+#anting_kiri {
+    animation: swing-earring1 2s infinite linear;
+}
+
+/* anting2 */
+@keyframes swing-earring2 {
+
+    25% {
+        transform: rotate(15deg);
+    }
+
+    /* 50% {
+        transform: rotate(0deg);
+    } */
+
+    75% {
+        transform: rotate(-15deg);
+    }
+
+}
+
+#anting_kanan {
+    animation: swing-earring2 2s infinite linear;
+}
+
+/* animasi jarum jam */
+@keyframes rotate-hour {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+#phase1_jarum_jam {
+    animation: rotate-hour 60s infinite linear;
+    transform-origin: 24.8% 51%;
+}
+
+#phase1_jarum_jam_2 {
+    animation: rotate-hour 12s infinite steps(60);
+    transform-origin: 32.7% 69.17%;
+}
+
+#phase1_jarum_jam_3 {
+    animation: rotate-hour 20s infinite steps(60);
+    transform-origin: 44.64% 77.22%;
+}
+
+#phase1_jarum_jam_4 {
+    animation: rotate-hour 40s infinite steps(60);
+    transform-origin: 70% 11.3%;
+}
+
+/* mobil geter */
+@keyframes shake-car {
+    0% {
+        transform: translateX(-2px) rotateZ(-1deg);
+    }
+
+    100% {
+        transform: translateX(2px) rotateZ(1deg);
+    }
+}
+
+#phase1_mobil1,
+#phase1_mobil2,
+#phase1_mobil3 {
+    animation: shake-car .1s infinite;
 }
 
 /* Tablet */
@@ -99,4 +195,3 @@
         }
     }
 } */
-

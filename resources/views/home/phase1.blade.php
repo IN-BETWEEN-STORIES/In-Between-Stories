@@ -42,7 +42,7 @@
     <div>
         {{-- anting kiri --}}
         <img src="{{ asset('/assets/home/new_phase1/anting1.png') }}" alt="Anting Kiri" id="anting_kiri"
-            class="absolute w-[9.6%] top-[24.15%] left-[55.15%] z-[4]" loading="lazy">
+            class="absolute w-[9.6%] top-[24.15%] left-[55.15%] z-[4] animate" loading="lazy">
         {{-- anting kanan --}}
         <img src="{{ asset('/assets/home/new_phase1/anting2.png') }}" alt="Anting Kanan" id="anting_kanan"
             class="absolute w-[9.35%] top-[27.35%] left-[62.03%] z-[4]" loading="lazy">
@@ -71,11 +71,11 @@
             class="absolute w-[12.5%] top-[29.75%] left-[80.5%] z-[6]" loading="lazy">
 
         {{-- Jarum jam 3 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_3.png') }}" alt="Jam" id="phase1_jarum_jam_2"
+        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_3.png') }}" alt="Jam" id="phase1_jarum_jam_3"
             class="absolute w-[8.5%] top-[29.75%] left-[80.6%] z-[6]" loading="lazy">
 
         {{-- Jarum jam 4 --}}
-        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_4.png') }}" alt="Jam" id="phase1_jarum_jam_2"
+        <img src="{{ asset('/assets/home/new_phase1/jarum_jam_4.png') }}" alt="Jam" id="phase1_jarum_jam_4"
             class="absolute w-[10%] top-[32.1%] left-[77.5%] z-[6]" loading="lazy">
 
         {{-- Kertas laci 1 --}}
@@ -231,6 +231,10 @@
             id="phase1_lebah_telpon" class="absolute w-[11%] bottom-[19.75%] right-[1.75%] z-[25]" loading="lazy">
 
         {{-- Cedek tas --}}
-        
+
+        <img src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4" id="phase1_lebah_4"
+            class="absolute w-[8%] bottom-[20%] right-[39.25%] z-[25] scale-150" loading="lazy">
+
+
     </div>
 </section>
