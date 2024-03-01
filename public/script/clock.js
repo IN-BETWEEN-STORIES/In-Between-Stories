@@ -6,9 +6,9 @@ function animateClock() {
         top: clock.offsetTop + sectionHeight * 0.1,
         ease: "power1.out",
         scrollTrigger: {
-            trigger: "#phase1_jam",
-            start: "top bottom",
-            end: "top 60%",
+            trigger: "#phase1_tanaman_depan",
+            start: "47% bottom",
+            end: "47% 60%",
             scrub: 1,
         },
     });
@@ -18,10 +18,11 @@ function animateClock() {
             top: needle.offsetTop + sectionHeight * 0.1,
             ease: "power1.out",
             scrollTrigger: {
-                trigger: "#phase1_jam",
-                start: "top bottom",
-                end: "top 60%",
+                trigger: "#phase1_tanaman_depan",
+                start: `47% bottom`,
+                end: `47% 60%`,
                 scrub: 1,
+                // markers: true,
             },
         });
     });

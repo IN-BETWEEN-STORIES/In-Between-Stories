@@ -71,7 +71,7 @@
             class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[8] lazy-load" loading="lazy">
 
         {{-- block dummy buat test tgn pegang jam --}}
-        <div class="absolute top-[35%] left-[80%] z-[7] cursor-pointer" id="dummy1"
+        <div class="absolute top-[36%] left-[83%] z-[7] cursor-pointer" id="dummy1"
             style="background-color: red; width: 50px; height: 50px;"></div>
 
         {{-- Jam --}}
