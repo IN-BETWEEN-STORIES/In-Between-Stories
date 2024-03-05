@@ -1,5 +1,5 @@
 {{-- gae ngetes scroll --}}
-<section class="h-[100vh]"></section>
+{{-- <section class="h-[100vh]"></section> --}}
 
 <section id="phase1" class="relative w-full">
     <img src="{{ asset('/assets/home/new_phase1/background.webp') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
