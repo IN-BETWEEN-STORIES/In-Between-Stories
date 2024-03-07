@@ -99,7 +99,7 @@
     25% {
         transform: rotate(15deg);
     }
-    
+
     75% {
         transform: rotate(-15deg);
     }
@@ -152,7 +152,7 @@
         -moz-transform: translateX(-1px) rotateZ(-0.5deg);
         -ms-transform: translateX(-1px) rotateZ(-0.5deg);
         -o-transform: translateX(-1px) rotateZ(-0.5deg);
-}
+    }
 
     100% {
         transform: translateX(1px) rotateZ(0.5deg);
@@ -160,17 +160,19 @@
         -moz-transform: translateX(1px) rotateZ(0.5deg);
         -ms-transform: translateX(1px) rotateZ(0.5deg);
         -o-transform: translateX(1px) rotateZ(0.5deg);
-}
+    }
 }
 
 #phase1_mobil1 {
     animation: shake-car .13s infinite;
     -webkit-animation: shake-car .13s infinite;
 }
+
 #phase1_mobil2 {
     animation: shake-car .14s infinite;
     -webkit-animation: shake-car .14s infinite;
 }
+
 #phase1_mobil3 {
     animation: shake-car .15s infinite;
     -webkit-animation: shake-car .15s infinite;
@@ -219,9 +221,52 @@
         transform: translate(-30px, -30px) scaleX(-1);
     }
 
-
-
 }
+
+@keyframes beeFloatDownNoFlip {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    10% {
+        transform: translate(-30px, 30px);
+    }
+
+    20% {
+        transform: translate(30px, 60px);
+    }
+
+    30% {
+        transform: translate(-30px, 90px);
+    }
+
+    40% {
+        transform: translate(30px, 120px);
+    }
+
+    50% {
+        transform: translate(-30px, 150px);
+    }
+
+    60% {
+        transform: translate(30px, 120px) scaleX(-1);
+    }
+
+    70% {
+        transform: translate(-30px, 90px) scaleX(-1);
+    }
+
+    80% {
+        transform: translate(30px, 60px) scaleX(-1);
+    }
+
+    90% {
+        transform: translate(-30px, 30px) scaleX(-1);
+    }
+}
+
 
 @keyframes swingBee {
 
@@ -235,14 +280,88 @@
     }
 }
 
+@keyframes flyBee2 {
+
+    0% {
+        transform: translateX(0) translateY(0) rotate(45deg);
+    }
+
+    35% {
+        transform: translateX(0px) translateY(-300px) rotate(-45deg);
+    }
+
+    50% {
+        transform: translateX(-100px) translateY(-300px) rotate(-135deg);
+    }
+
+    85% {
+        transform: translateX(-100px) translateY(0) rotate(-225deg);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0) rotate(-315deg);
+    }
+}
+
+@keyframes flyBee1 {
+
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(-360deg);
+    }
+
+    25% {
+        transform: translate(100px, -100px) rotate(-45deg);
+    }
+
+    50% {
+        transform: translate(-25px, -250px) rotate(-90deg);
+    }
+
+    75% {
+        transform: translate(-150px, -100px) rotate(-180deg);
+    }
+}
+
+@keyframes flyBee3 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scaleX(1);
+    }
+
+    50% {
+        transform: translate(125px, -200px) scaleX(-1);
+    }
+}
+
 #phase1_lebah_4 {
     transform: scaleX(-1);
     animation: beeFloat 8s ease-in-out infinite;
 }
 
+#phase1_lebah_2 {
+    animation: flyBee2 4s linear infinite;
+}
+
+#phase1_lebah_1 {
+    animation: flyBee1 4s linear infinite;
+}
+
 #phase1_lebah_telpon {
     animation: swingBee 2s infinite linear;
+}
 
+#phase1_lebah_3 {
+    animation: flyBee3 4s infinite linear;
+}
+
+#phase1_lebah_4_atas {
+    animation: beeFloatDownNoFlip 8s ease-in-out infinite;
 }
 
 

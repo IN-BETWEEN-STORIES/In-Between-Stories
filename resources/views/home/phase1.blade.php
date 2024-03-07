@@ -9,7 +9,7 @@
         loading="eager" class="absolute h-full top-0 left-[-28%] z-[30] cursor-pointer">
 
     {{-- Gedung 3 --}}
-    <img src="{{ asset('/assets/home/new_phase1/gedung3.webp') }}" alt="Gedung 3" id="phase1_gedung3"
+    <img src="{{ asset('/assets/home/new_phase1/gedung belakang atas.png') }}" alt="Gedung 3" id="phase1_gedung3"
         class="absolute w-[99%] top-0 right-[-7.4%] z-[2]" loading="eager">
 
     {{-- Gedung 2 --}}
@@ -274,9 +274,23 @@
         <img data-src="{{ asset('/assets/home/new_phase1/lebah_telpon.png') }}" alt="Lebah Telpon"
             id="phase1_lebah_telpon" class="absolute w-[11%] bottom-[19.75%] right-[1.75%] z-[25] lazy-load"
             loading="lazy">
-
+        {{-- lebah 4 Bawah --}}
         <img data-src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4" id="phase1_lebah_4"
             class="absolute w-[11%] bottom-[19.25%] right-[38%] z-[25] lazy-load" loading="lazy">
+        {{-- lebah 3 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/lebah_3.png') }}" alt="Lebah 3" id="phase1_lebah_3"
+            class="absolute w-[11%] top-[22.75%] left-[13%] z-[25] lazy-load" loading="lazy">
+        {{-- lebah 1 --}}
+        <img src="{{ asset('/assets/home/new_phase1/lebah_1.png') }}" alt="Lebah 1" id="phase1_lebah_1"
+            class="absolute w-[11%] top-[17.75%] left-[29.5%] z-[25]" loading="eager">
+        {{-- lebah 2 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/lebah_2.png') }}" alt="Lebah 2" id="phase1_lebah_2"
+            class="absolute w-[11%] bottom-[1.5%] right-[-2.95%] z-[25] lazy-load" loading="lazy">
+        {{-- lebah 4 atas --}}
+        <img src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4 atas" id="phase1_lebah_4_atas"
+            class="absolute w-[8%] top-[4.6%] right-[11.3%] z-[25]" loading="eager">
+
+
 
 
     </div>
