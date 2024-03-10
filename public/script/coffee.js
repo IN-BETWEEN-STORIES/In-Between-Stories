@@ -6,7 +6,6 @@ function animateCoffeePour() {
             start: "30% top",
             end: "bottom top",
             scrub: 1,
-            markers: true,
         },
     });
 }
@@ -17,7 +16,6 @@ const coffeeGroup = document.querySelectorAll(".coffee_grp");
 const placeholder = document.getElementById("coffee_grp_placeholder");
 
 coffeeGroup.forEach((elem) => {
-    console.log(elem.id);
     elem.addEventListener("click", () => {
         coffeeGroup.forEach((e) => {
             e.style.translate = "100vw 0";
