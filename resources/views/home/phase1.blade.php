@@ -42,6 +42,43 @@
     <img data-src="{{ asset('/assets/home/new_phase1/tanaman_depan_tangan_kopi.webp') }}" alt="Tanaman Depan"
         id="phase1_tanaman_depan" class="absolute w-[30%] top-[25.75%] right-0 z-[6] lazy-load" loading="lazy">
 
+    {{-- gedung belakang maureen atas --}}
+    <img data-src="{{ asset('/assets/home/new_phase1/gedung_belakang_maureen_atas.png') }}"
+        alt="Gedung Belakang Maureen Atas" id="phase1_gedung_belakang_maureen_atas"
+        class="absolute w-[86%] top-[29.5%] right-[2.35%] z-[4] lazy-load" loading="lazy">
+
+    {{-- Koper & Lemari --}}
+    <img data-src="{{ asset('/assets/home/new_phase1/koper_lemari.webp') }}" alt="Koper & Lemari"
+        id="phase1_koper_lemari" class="absolute w-[95%] top-[41.5%] right-0 z-[6] lazy-load" loading="lazy">
+
+    {{-- kertas2 jatuh --}}
+    <div>
+        {{-- Kertas jatuh 2 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_2.png') }}" alt="Kertas Jatuh 2"
+            id="phase1_kertas_jatuh_2" class="absolute w-[26%] top-[29.25%] left-[13%] z-[4] lazy-load"
+            loading="lazy">
+        {{-- Kertas jatuh 3 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_3.png') }}" alt="Kertas Jatuh 3"
+            id="phase1_kertas_jatuh_3" class="absolute w-[24%] top-[36.68%] left-[3%] z-[4] lazy-load"
+            loading="lazy">
+        {{-- Kertas jatuh 4 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_4.png') }}" alt="Kertas Jatuh 4"
+            id="phase1_kertas_jatuh_4" class="absolute w-[16%] top-[45.9%] left-[11.5%] z-[12] lazy-load"
+            loading="lazy">
+        {{-- Kertas jatuh 7 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_7.png') }}" alt="Kertas Jatuh 7"
+            id="phase1_kertas_jatuh_7" class="absolute w-[21.3%] top-[47.8%] left-[0%] z-[12] lazy-load"
+            loading="lazy">
+        {{-- Kertas jatuh 5 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_5.png') }}" alt="Kertas Jatuh 5"
+            id="phase1_kertas_jatuh_5" class="absolute w-[17%] top-[57.5%] left-[14%] z-[12] lazy-load"
+            loading="lazy">
+        {{-- Kertas jatuh 6 --}}
+        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_6.png') }}" alt="Kertas Jatuh 6"
+            id="phase1_kertas_jatuh_6" class="absolute w-[21.8%] top-[61.85%] left-[.86%] z-[12] lazy-load"
+            loading="lazy">
+    </div>
+
     {{-- Foto kirine jam / maureen --}}
     <img data-src="{{ asset('/assets/home/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri"
         class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[4] cursor-pointer lazy-load" loading="lazy">
@@ -60,10 +97,6 @@
         <img data-src="{{ asset('/assets/home/new_phase1/anting2.png') }}" alt="Anting Kanan" id="anting_kanan"
             class="absolute w-[9.35%] top-[27.35%] left-[62.03%] z-[4] lazy-load" loading="lazy">
     </div>
-
-    {{-- Koper & Lemari --}}
-    <img data-src="{{ asset('/assets/home/new_phase1/koper_lemari.webp') }}" alt="Koper & Lemari"
-        id="phase1_koper_lemari" class="absolute w-[95%] top-[41.5%] right-0 z-[6] lazy-load" loading="lazy">
 
     {{-- isi laci atas --}}
     <div>
@@ -132,34 +165,6 @@
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_laci_4.png') }}" alt="Bunga"
             id="phase1_kertas_laci_4"
             class="absolute w-[24%] top-[59%] left-[75.1%] z-[10] lazy-load cursor-pointer kertas_bawah"
-            loading="lazy">
-    </div>
-
-    {{-- kertas2 jatuh --}}
-    <div>
-        {{-- Kertas jatuh 2 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_2.png') }}" alt="Kertas Jatuh 2"
-            id="phase1_kertas_jatuh_2" class="absolute w-[26%] top-[29.25%] left-[13%] z-[3] lazy-load"
-            loading="lazy">
-        {{-- Kertas jatuh 3 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_3.png') }}" alt="Kertas Jatuh 3"
-            id="phase1_kertas_jatuh_3" class="absolute w-[24%] top-[36.68%] left-[3%] z-[3] lazy-load"
-            loading="lazy">
-        {{-- Kertas jatuh 4 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_4.png') }}" alt="Kertas Jatuh 4"
-            id="phase1_kertas_jatuh_4" class="absolute w-[16%] top-[45.9%] left-[11.5%] z-[12] lazy-load"
-            loading="lazy">
-        {{-- Kertas jatuh 7 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_7.png') }}" alt="Kertas Jatuh 7"
-            id="phase1_kertas_jatuh_7" class="absolute w-[21.3%] top-[47.8%] left-[0%] z-[12] lazy-load"
-            loading="lazy">
-        {{-- Kertas jatuh 5 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_5.png') }}" alt="Kertas Jatuh 5"
-            id="phase1_kertas_jatuh_5" class="absolute w-[17%] top-[57.5%] left-[14%] z-[12] lazy-load"
-            loading="lazy">
-        {{-- Kertas jatuh 6 --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_6.png') }}" alt="Kertas Jatuh 6"
-            id="phase1_kertas_jatuh_6" class="absolute w-[21.8%] top-[61.85%] left-[.86%] z-[12] lazy-load"
             loading="lazy">
     </div>
 

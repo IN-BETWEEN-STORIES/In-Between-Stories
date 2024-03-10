@@ -15,11 +15,14 @@ $(document).ready(function(){
 
         setTimeout(() => {
             $('#dummymaureen').css('z-index', 10);
-        }, 700);
+        }, 600);
     }
 
     function showMaureen() {
-        $('#dummymaureen').attr('style', '');
+        setTimeout(() => {
+            $('#dummymaureen').attr('style', '');
+        }, 1350);
+
         $("#phase1_foto_kiri").css({
             left: initialPosition.left + "px",
             transition: "2s ease-in-out"
