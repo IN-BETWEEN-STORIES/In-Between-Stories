@@ -42,13 +42,14 @@
     <img data-src="{{ asset('/assets/home/new_phase1/tanaman_depan_tangan_kopi.webp') }}" alt="Tanaman Depan"
         id="phase1_tanaman_depan" class="absolute w-[30%] top-[25.75%] right-0 z-[6] lazy-load" loading="lazy">
 
-    {{-- Foto kirine jam --}}
+    {{-- Foto kirine jam / maureen --}}
     <img data-src="{{ asset('/assets/home/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri"
         class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[4] cursor-pointer lazy-load" loading="lazy">
+    <img data-src="{{ asset('/assets/home/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri_hidden"
+        class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[100] opacity-0 cursor-pointer lazy-load" loading="lazy">
 
     {{-- block dummy buat test maureen --}}
-    <div class="absolute w-[51.5%] w-[6vw] h-[6vw] top-[35%] left-[42%] z-[3] cursor-pointer" id="dummymaureen"
-        style="background-color: red;"></div>
+    <div class="absolute w-[51.5%] w-[6vw] h-[6vw] top-[35%] left-[42%] z-[3] cursor-pointer bg-red-600" id="dummymaureen"></div>
 
     {{-- anting2 --}}
     <div>
