@@ -26,10 +26,13 @@ kertasBawah.forEach((e) => {
             kertasHitam.classList.add("bring-to-center");
         } else {
             kertasHitam.classList.remove("bring-to-center");
-            kertasHitam.style.transform =
-                "translateY(0) translateX(0) rotate(0)";
+            kertasHitam.style.transform = "translate(0%, 0%) rotate(0deg)";
             kertasHitam.style.transition = "transform 1s ease-in-out";
             kertasHitam.style.zIndex = "9";
+
+            setTimeout(() => {
+                kertasHitam.style.transition = "none";
+            }, 1000);
         }
     });
 });

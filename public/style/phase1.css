@@ -472,6 +472,6 @@
 }
 
 .bring-to-center {
-    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out !important;
     transform: translateY(-40%) translateX(-20%) rotate(-15deg) !important;
 }
