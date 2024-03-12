@@ -214,6 +214,9 @@
 
     {{-- Bawah kanan --}}
     <div>
+        {{-- block dummy buat test pintu --}}
+        <div class="absolute w-[6vw] h-[6vw] bottom-[10%] left-[80%] z-[15] cursor-pointer bg-red-600" id="dummy_pintu"></div>
+
         {{-- Box bawah --}}
         <img data-src="{{ asset('/assets/home/new_phase1/box_tas.png') }}" alt="Box Bawah" id="phase1_box_bawah"
             class="absolute w-[22.5%] bottom-[3.4%] left-[51.8%] z-[14] lazy-load" loading="lazy">

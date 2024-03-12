@@ -70,6 +70,7 @@
     <script src="{{ asset('/script/clock.js') }}"></script>
     <script src="{{ asset('/script/text_paper.js') }}"></script>
     <script src="{{ asset('/script/maureen.js') }}"></script>
+    <script src="{{ asset('/script/pintu.js') }}"></script>
 </body>
 
 </html>
