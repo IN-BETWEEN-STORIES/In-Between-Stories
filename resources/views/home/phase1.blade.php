@@ -223,31 +223,31 @@
 
         {{-- Orang Kanan --}}
         <img data-src="{{ asset('/assets/home/new_phase1/maureen_bawah.png') }}" alt="Orang Bawah 3"
-            id="phase1_orang_bawah3" class="absolute w-[14.35%] bottom-[1.9%] right-[16.75%] z-[20] lazy-load"
+            id="phase1_orang_bawah3" class="absolute w-[14.35%] bottom-[1.9%] right-[16.75%] z-[20] lazy-load cursor-pointer"
             loading="lazy">
 
         {{-- Pintu --}}
         <img data-src="{{ asset('/assets/home/new_phase1/pintu.png') }}" alt="Pintu" id="phase1_pintu"
-            class="absolute w-[26.75%] bottom-[4.25%] right-[7.35%] z-[17] lazy-load" loading="lazy">
+            class="absolute w-[26.75%] bottom-[4.25%] right-[7.35%] z-[17] lazy-load cursor-pointer" loading="lazy">
 
         {{-- Kalung biru --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kalung_biru.png') }}" alt="Kalung Biru"
-            id="phase1_kalung_biru" class="absolute w-[11%] bottom-[20.1%] right-[15.5%] z-[18] lazy-load"
+            id="phase1_kalung_biru" class="absolute w-[11%] bottom-[20.1%] right-[15.5%] z-[18] lazy-load cursor-pointer"
             loading="lazy">
 
         {{-- Kalung pink --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kalung_pink.png') }}" alt="Kalung Pink"
-            id="phase1_kalung_pink" class="absolute w-[12.25%] bottom-[15.75%] right-[9.25%] z-[18] lazy-load"
+            id="phase1_kalung_pink" class="absolute w-[12.25%] bottom-[15.75%] right-[9.25%] z-[18] lazy-load cursor-pointer"
             loading="lazy">
 
         {{-- Tangan --}}
         <img data-src="{{ asset('/assets/home/new_phase1/tangan_bawah.png') }}" alt="Tangan Bawah"
-            id="phase1_tangan_bawah" class="absolute w-[17.75%] bottom-[4.35%] right-0 z-[19] lazy-load"
+            id="phase1_tangan_bawah" class="absolute w-[17.75%] bottom-[4.35%] right-0 z-[19] lazy-load cursor-pointer"
             loading="lazy">
 
         {{-- Bunga --}}
         <img data-src="{{ asset('/assets/home/new_phase1/buket_bunga.png') }}" alt="Bunga" id="phase1_bunga"
-            class="absolute w-[13%] bottom-[3.2%] right-0 z-[20] lazy-load" loading="lazy">
+            class="absolute w-[13%] bottom-[3.2%] right-0 z-[20] lazy-load cursor-pointer" loading="lazy">
 
         {{-- Tas --}}
         <div>
