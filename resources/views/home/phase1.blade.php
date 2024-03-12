@@ -255,6 +255,9 @@
             <img data-src="{{ asset('/assets/home/new_phase1/tas_oren.png') }}" alt="Tas Orange"
                 id="phase1_tas_orange" class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load"
                 loading="lazy">
+            <img data-src="{{ asset('/assets/home/new_phase1/tas_oren.png') }}" alt="Tas Orange"
+                id="phase1_tas_orange_hidden" class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[22] lazy-load cursor-pointer opacity-0"
+                loading="lazy">
 
             {{-- Merah --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_merah.png') }}" alt="Tas Merah"
@@ -264,6 +267,8 @@
             {{-- Ijo --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo"
                 class="absolute w-[16%] bottom-[12%] right-[24.75%] z-[16] lazy-load" loading="lazy">
+            <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo_hidden"
+                class="absolute w-[16%] bottom-[12%] right-[24.75%] z-[21] lazy-load cursor-pointer opacity-0" loading="lazy">
         </div>
 
         {{-- Tumpukan barang --}}

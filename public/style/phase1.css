@@ -34,7 +34,7 @@
 /* scale buat 3 tas */
 .zoomed-in {
     transform: scale(1.1);
-    z-index: 20 !important;
+    z-index: 23 !important;
 }
 
 .zoomed-out {

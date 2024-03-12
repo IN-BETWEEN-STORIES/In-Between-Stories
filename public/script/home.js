@@ -136,10 +136,12 @@ $(document).ready(function () {
 
     }
     tasIjo = $('#phase1_tas_ijo')
+    tasIjoClickable = $('#phase1_tas_ijo_hidden, #phase1_tas_ijo')
     tasMerah = $('#phase1_tas_merah')
     tasOrange = $('#phase1_tas_orange')
+    tasOrangeClickable = $('#phase1_tas_orange_hidden, #phase1_tas_orange')
 
-    tasIjo.on('click', function () {
+    tasIjoClickable.on('click', function () {
         if (!tasIjo.hasClass('zoomed-out')) {
             zoom(tasIjo, tasMerah, tasOrange)
         }
@@ -149,7 +151,7 @@ $(document).ready(function () {
             zoom(tasMerah, tasOrange, tasIjo);
         }
     })
-    tasOrange.on('click', function () {
+    tasOrangeClickable.on('click', function () {
         if (!tasOrange.hasClass('zoomed-out')) {
             zoom(tasOrange, tasIjo, tasMerah)
         }
