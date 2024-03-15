@@ -76,11 +76,11 @@
 /* anting1 */
 @keyframes swing-earring1 {
 
-    25% {
+    0% {
         transform: rotate(-15deg);
     }
 
-    75% {
+    100% {
         transform: rotate(15deg);
     }
 
@@ -89,18 +89,18 @@
 
 #anting_kiri {
     transform-origin: top;
-    animation: swing-earring1 2.2s infinite linear;
-    -webkit-animation: swing-earring1 2.2s infinite linear;
+    animation: swing-earring1 ease-in-out 2.2s infinite alternate;
+    -webkit-animation: swing-earring1 ease-in-out 2.2s infinite alternate;
 }
 
 /* anting2 */
 @keyframes swing-earring2 {
 
-    25% {
+    0% {
         transform: rotate(15deg);
     }
 
-    75% {
+    100% {
         transform: rotate(-15deg);
     }
 
@@ -108,8 +108,8 @@
 
 #anting_kanan {
     transform-origin: 50% 6%;
-    animation: swing-earring2 2s infinite linear;
-    -webkit-animation: swing-earring2 2s infinite linear;
+    animation: swing-earring2 ease-in-out 2.3s infinite alternate;
+    -webkit-animation: swing-earring2 ease-in-out 2.3s infinite alternate;
 }
 
 /* animasi jarum jam */
