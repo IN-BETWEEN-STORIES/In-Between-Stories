@@ -147,35 +147,35 @@
 /* mobil geter */
 @keyframes shake-car {
     0% {
-        transform: translateX(-1px) rotateZ(-0.5deg);
-        -webkit-transform: translateX(-1px) rotateZ(-0.5deg);
-        -moz-transform: translateX(-1px) rotateZ(-0.5deg);
-        -ms-transform: translateX(-1px) rotateZ(-0.5deg);
-        -o-transform: translateX(-1px) rotateZ(-0.5deg);
-    }
+        transform: translateX(-0.4px) rotateZ(-0.2deg);
+        -webkit-transform: translateX(-0.4px) rotateZ(-0.2deg);
+        -moz-transform: translateX(-0.4px) rotateZ(-0.2deg);
+        -ms-transform: translateX(-0.4px) rotateZ(-0.2deg);
+        -o-transform: translateX(-0.4px) rotateZ(-0.2deg);
+}
 
     100% {
-        transform: translateX(1px) rotateZ(0.5deg);
-        -webkit-transform: translateX(1px) rotateZ(0.5deg);
-        -moz-transform: translateX(1px) rotateZ(0.5deg);
-        -ms-transform: translateX(1px) rotateZ(0.5deg);
-        -o-transform: translateX(1px) rotateZ(0.5deg);
-    }
+        transform: translateX(0.4px) rotateZ(0.2deg);
+        -webkit-transform: translateX(0.4px) rotateZ(0.2deg);
+        -moz-transform: translateX(0.4px) rotateZ(0.2deg);
+        -ms-transform: translateX(0.4px) rotateZ(0.2deg);
+        -o-transform: translateX(0.4px) rotateZ(0.2deg);
+}
 }
 
 #phase1_mobil1 {
-    animation: shake-car .13s infinite;
-    -webkit-animation: shake-car .13s infinite;
+    animation: shake-car .26s infinite;
+    -webkit-animation: shake-car .26s infinite;
 }
 
 #phase1_mobil2 {
-    animation: shake-car .14s infinite;
-    -webkit-animation: shake-car .14s infinite;
+    animation: shake-car .27s infinite;
+    -webkit-animation: shake-car .27s infinite;
 }
 
 #phase1_mobil3 {
-    animation: shake-car .15s infinite;
-    -webkit-animation: shake-car .15s infinite;
+    animation: shake-car .28s infinite;
+    -webkit-animation: shake-car .28s infinite;
 }
 
 @keyframes beeFloat {

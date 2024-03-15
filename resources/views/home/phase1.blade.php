@@ -10,7 +10,7 @@
 
     {{-- Gedung 3 --}}
     <img src="{{ asset('/assets/home/new_phase1/gedung belakang atas.png') }}" alt="Gedung 3" id="phase1_gedung3"
-        class="absolute w-[99%] top-0 right-[-7.4%] z-[2]" loading="eager">
+        class="absolute w-[93%] top-0 right-[0%] z-[2]" loading="eager">
 
     {{-- Gedung 2 --}}
     <img src="{{ asset('/assets/home/new_phase1/gedung2.webp') }}" alt="Gedung 2" id="phase1_gedung2"
