@@ -22,13 +22,13 @@ $(document).ready(function () {
 
     gsap.from("#phase1_kertasText", {
         scrollTrigger: {
-            trigger: "#phase1_kertas_laci_2",
-            start: "top 80%",
-            end: "=+700",
+            trigger: "#phase1_kertasText",
+            start: "20% bottom",
+            end: "50% top",
             scrub: true,
-            // markers: true,
+            markers: true,
         },
-        x: "-35%",
+        x: "-7%",
         duration: 5,
     });
 

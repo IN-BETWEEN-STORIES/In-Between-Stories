@@ -16,29 +16,48 @@
 #phase1_tas_ijo {
     animation: hoveringAnimation1 12s infinite ease-in-out;
     cursor: pointer;
+    transition: scale 0.6s ease;
+    -webkit-transition: scale 0.6s ease;
+    -moz-transition: scale 0.6s ease;
+    -ms-transition: scale 0.6s ease;
+    -o-transition: scale 0.6s ease;
 }
 
 #phase1_tas_merah {
     animation: hoveringAnimation2 20s infinite ease-in-out;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: scale 0.6s ease;
+    -webkit-transition: scale 0.6s ease;
+    -moz-transition: scale 0.6s ease;
+    -ms-transition: scale 0.6s ease;
+    -o-transition: scale 0.6s ease;
 }
 
 #phase1_tas_orange {
     animation: hoveringAnimation3 15s infinite ease-in-out;
     cursor: pointer;
+    transition: scale 0.6s ease;
+    -webkit-transition: scale 0.6s ease;
+    -moz-transition: scale 0.6s ease;
+    -ms-transition: scale 0.6s ease;
+    -o-transition: scale 0.6s ease;
 }
 
 /* close static animation tas */
 
 /* scale buat 3 tas */
 .zoomed-in {
-    transform: scale(1.1);
+    scale: 1.1;
+    z-index: 23 !important;
+}
+
+.zoomed-in-orange {
+    scale: 1.25;
     z-index: 23 !important;
 }
 
 .zoomed-out {
-    transform: scale(0.8);
+    scale: 0.75;
 }
 
 /* Desktop */

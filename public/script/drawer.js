@@ -1,14 +1,21 @@
 function animateDrawerItem(items) {
     items.forEach((item) => {
-        gsap.from("#" + item, {
-            yPercent: 80,
-            scrollTrigger: {
-                trigger: "#" + item,
-                start: "top bottom",
-                end: "top bottom",
-                scrub: 1,
-            },
-        });
+        const isPaperInsideLastDrawer = [
+            "phase1_kertas_laci_3",
+            "phase1_kertas_laci_4",
+        ].includes(item);
+
+        document.getElementById(item).onload = () => {
+            gsap.from("#" + item, {
+                yPercent: 80,
+                scrollTrigger: {
+                    trigger: "#" + item,
+                    start: (isPaperInsideLastDrawer) ? "top 115%" : "top 86%",
+                    end: (isPaperInsideLastDrawer) ? "top 115%" : "top bottom",
+                    scrub: 1,
+                },
+            });
+        }
     });
 }
 animateDrawerItem([
