@@ -29,7 +29,7 @@ function createTween() {
 
     tween && tween.progress(0).kill();
     tween = gsap.to("#phase1_lebah_4_atas", {
-        duration: 3,
+        duration: 6,
         ease: "none",
         motionPath: {
             path: "#pathLebah4Atas",
@@ -72,7 +72,7 @@ function createTween2() {
     const bounds2 = [0.202, 0.205]
     tween2 && tween2.progress(0).kill();
     tween2 = gsap.to("#phase1_lebah_1", {
-        duration: 4,
+        duration: 8,
         ease: "none",
         motionPath: {
             path: "#pathLebah1",
@@ -113,7 +113,7 @@ function createTween3() {
     const bounds1 = [0.25, 0.253]
     tween3 && tween3.progress(0).kill();
     tween3 = gsap.to("#phase1_lebah_4", {
-        duration: 4,
+        duration: 8,
         ease: "none",
         motionPath: {
             path: "#pathLebah4",
@@ -147,7 +147,7 @@ function createTween4() {
     const bounds = [0.54, 0.543]
     tween4 && tween4.progress(0).kill();
     tween4 = gsap.to("#phase1_lebah_2_atas", {
-        duration: 4,
+        duration: 8,
         ease: "none",
         motionPath: {
             path: "#pathLebah2Atas",

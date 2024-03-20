@@ -327,24 +327,44 @@
 @keyframes flyBee3 {
 
     0% {
-        transform: translate(-2px, -2px);
-    }
+        transform: translate(-1px, -2px);
+        -webkit-transform: translate(-1px, -2px);
+        -moz-transform: translate(-1px, -2px);
+        -ms-transform: translate(-1px, -2px);
+        -o-transform: translate(-1px, -2px);
+}
 
     25% {
-        transform: translate(3px, 3px);
-    }
+        transform: translate(1.5px, 3px);
+        -webkit-transform: translate(1.5px, 3px);
+        -moz-transform: translate(1.5px, 3px);
+        -ms-transform: translate(1.5px, 3px);
+        -o-transform: translate(1.5px, 3px);
+}
 
     50% {
-        transform: translate(-4px, -4px);
-    }
+        transform: translate(-2px, -4px);
+        -webkit-transform: translate(-2px, -4px);
+        -moz-transform: translate(-2px, -4px);
+        -ms-transform: translate(-2px, -4px);
+        -o-transform: translate(-2px, -4px);
+}
 
     75% {
-        transform: translate(3px, 3px);
-    }
+        transform: translate(1.5px, 3px);
+        -webkit-transform: translate(1.5px, 3px);
+        -moz-transform: translate(1.5px, 3px);
+        -ms-transform: translate(1.5px, 3px);
+        -o-transform: translate(1.5px, 3px);
+}
 
     100% {
-        transform: translate(-2px, -2px);
-    }
+        transform: translate(-1px, -2px);
+        -webkit-transform: translate(-1px, -2px);
+        -moz-transform: translate(-1px, -2px);
+        -ms-transform: translate(-1px, -2px);
+        -o-transform: translate(-1px, -2px);
+}
 }
 
 /* #phase1_lebah_4 {

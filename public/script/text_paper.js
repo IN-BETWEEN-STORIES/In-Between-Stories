@@ -26,7 +26,7 @@ $(document).ready(function () {
             start: "20% bottom",
             end: "50% top",
             scrub: true,
-            markers: true,
+            // markers: true,
         },
         x: "-7%",
         duration: 5,
