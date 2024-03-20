@@ -152,7 +152,7 @@
         -moz-transform: translateX(-0.4px) rotateZ(-0.2deg);
         -ms-transform: translateX(-0.4px) rotateZ(-0.2deg);
         -o-transform: translateX(-0.4px) rotateZ(-0.2deg);
-}
+    }
 
     100% {
         transform: translateX(0.4px) rotateZ(0.2deg);
@@ -160,7 +160,7 @@
         -moz-transform: translateX(0.4px) rotateZ(0.2deg);
         -ms-transform: translateX(0.4px) rotateZ(0.2deg);
         -o-transform: translateX(0.4px) rotateZ(0.2deg);
-}
+    }
 }
 
 #phase1_mobil1 {
@@ -225,45 +225,24 @@
 
 @keyframes beeFloatDownNoFlip {
 
-    0%,
-    100% {
+    0% {
         transform: translate(0, 0);
     }
 
-    10% {
-        transform: translate(-30px, 30px);
-    }
-
-    20% {
-        transform: translate(30px, 60px);
-    }
-
-    30% {
-        transform: translate(-30px, 90px);
-    }
-
-    40% {
-        transform: translate(30px, 120px);
+    25% {
+        transform: translate(-70px, 55px);
     }
 
     50% {
-        transform: translate(-30px, 150px);
+        transform: translate(-18px, 150px);
     }
 
-    60% {
-        transform: translate(30px, 120px) scaleX(-1);
+    75% {
+        transform: translate(-3px, 60px);
     }
 
-    70% {
-        transform: translate(-30px, 90px) scaleX(-1);
-    }
-
-    80% {
-        transform: translate(30px, 60px) scaleX(-1);
-    }
-
-    90% {
-        transform: translate(-30px, 30px) scaleX(-1);
+    100% {
+        transform: translate(0, 0);
     }
 }
 
@@ -281,25 +260,24 @@
 }
 
 @keyframes flyBee2 {
-
     0% {
-        transform: translateX(0) translateY(0) rotate(45deg);
+        transform: translate(-1px, -1px);
     }
 
-    35% {
-        transform: translateX(0px) translateY(-300px) rotate(-45deg);
+    25% {
+        transform: translate(2px, 2px);
     }
 
     50% {
-        transform: translateX(-100px) translateY(-300px) rotate(-135deg);
+        transform: translate(-3px, -3px);
     }
 
-    85% {
-        transform: translateX(-100px) translateY(0) rotate(-225deg);
+    75% {
+        transform: translate(2px, 2px);
     }
 
     100% {
-        transform: translateX(0) translateY(0) rotate(-315deg);
+        transform: translate(-1px, -1px);
     }
 }
 
@@ -329,41 +307,66 @@
 
 @keyframes flyBee3 {
 
-    0%,
-    100% {
-        transform: translate(0, 0) scaleX(1);
+    0% {
+        transform: translate(-2px, -2px);
+    }
+
+    25% {
+        transform: translate(3px, 3px);
     }
 
     50% {
-        transform: translate(125px, -200px) scaleX(-1);
+        transform: translate(-4px, -4px);
+    }
+
+    75% {
+        transform: translate(3px, 3px);
+    }
+
+    100% {
+        transform: translate(-2px, -2px);
     }
 }
 
-#phase1_lebah_4 {
+/* #phase1_lebah_4 {
     transform: scaleX(-1);
     animation: beeFloat 8s ease-in-out infinite;
-}
+} */
 
 #phase1_lebah_2 {
-    animation: flyBee2 4s linear infinite;
+    animation: flyBee2 .5s linear infinite;
 }
 
-#phase1_lebah_1 {
-    animation: flyBee1 4s linear infinite;
-}
+/* #phase1_lebah_1 {
+    offset-path: path('M137 32C283.737 11.2939 295.417 86.8614 194.5 372C195.102 411.524 188.18 432.593 158 467.5C10.3847 343.624 -19.7963 268.336 12.4999 124.5C-10.6242 -10.2353 21.1935 -24.2232 137 32Z');
+    animation: offsetAnimate 4s linear infinite;
+    offset-rotate: 0deg;
+} */
 
 #phase1_lebah_telpon {
-    animation: swingBee 2s infinite linear;
+    animation: swingBee 4s infinite linear;
 }
 
 #phase1_lebah_3 {
-    animation: flyBee3 4s infinite linear;
+    animation: flyBee3 1s infinite linear;
 }
 
-#phase1_lebah_4_atas {
-    animation: beeFloatDownNoFlip 8s ease-in-out infinite;
-}
+/* #phase1_lebah_4_atas { */
+/* offset-path: path("M106.658 185C16.4025 152.089 -99.4873 69.2146 159 1C69.8098 52.7418 64.7893 76.5493 147.928 108.362C59.9588 113.527 51.1425 130.293 106.658 185Z"); */
+/* offset-rotate: 0deg;
+    offset-distance: 0%;
+    animation: offsetAnimate 3s infinite linear; */
+/* } */
 
+@keyframes offsetAnimate {
+    from {
+        offset-distance: 0%
+    }
+
+    to {
+        offset-distance: 100%;
+    }
+}
 
 /* Tablet */
 /* @media screen and (max-width: 992px) {

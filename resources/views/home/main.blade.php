@@ -61,6 +61,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.2/MotionPathPlugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> --}}
 
     <script src="{{ asset('/script/home.js') }}"></script>
     <script src="{{ asset('/script/observer.js') }}"></script>
@@ -71,6 +74,7 @@
     <script src="{{ asset('/script/text_paper.js') }}"></script>
     <script src="{{ asset('/script/maureen.js') }}"></script>
     <script src="{{ asset('/script/pintu.js') }}"></script>
+    <script src="{{ asset('/script/bee.js') }}"></script>
 </body>
 
 </html>

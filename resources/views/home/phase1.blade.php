@@ -13,7 +13,7 @@
         class="absolute w-[93%] top-0 right-[0%] z-[2]" loading="eager">
 
     {{-- Gedung 2 --}}
-    <img src="{{ asset('/assets/home/new_phase1/gedung2.webp') }}" alt="Gedung 2" id="phase1_gedung2"
+    <img src="{{ asset('/assets/home/new_phase1/gedung_2.png') }}" alt="Gedung 2" id="phase1_gedung2"
         class="absolute w-[72%] top-[12.55%] right-[-13.7%] z-[2]" loading="eager">
 
     {{-- cangkir & tangannya --}}
@@ -55,24 +55,20 @@
     <div>
         {{-- Kertas jatuh 2 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_2.png') }}" alt="Kertas Jatuh 2"
-            id="phase1_kertas_jatuh_2" class="absolute w-[26%] top-[29.25%] left-[13%] z-[4] lazy-load"
-            loading="lazy">
+            id="phase1_kertas_jatuh_2" class="absolute w-[26%] top-[29.25%] left-[13%] z-[4] lazy-load" loading="lazy">
         {{-- Kertas jatuh 3 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_3.png') }}" alt="Kertas Jatuh 3"
-            id="phase1_kertas_jatuh_3" class="absolute w-[24%] top-[36.68%] left-[3%] z-[4] lazy-load"
-            loading="lazy">
+            id="phase1_kertas_jatuh_3" class="absolute w-[24%] top-[36.68%] left-[3%] z-[4] lazy-load" loading="lazy">
         {{-- Kertas jatuh 4 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_4.png') }}" alt="Kertas Jatuh 4"
             id="phase1_kertas_jatuh_4" class="absolute w-[16%] top-[45.9%] left-[11.5%] z-[12] lazy-load"
             loading="lazy">
         {{-- Kertas jatuh 7 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_7.png') }}" alt="Kertas Jatuh 7"
-            id="phase1_kertas_jatuh_7" class="absolute w-[21.3%] top-[47.8%] left-[0%] z-[12] lazy-load"
-            loading="lazy">
+            id="phase1_kertas_jatuh_7" class="absolute w-[21.3%] top-[47.8%] left-[0%] z-[12] lazy-load" loading="lazy">
         {{-- Kertas jatuh 5 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_5.png') }}" alt="Kertas Jatuh 5"
-            id="phase1_kertas_jatuh_5" class="absolute w-[17%] top-[57.5%] left-[14%] z-[12] lazy-load"
-            loading="lazy">
+            id="phase1_kertas_jatuh_5" class="absolute w-[17%] top-[57.5%] left-[14%] z-[12] lazy-load" loading="lazy">
         {{-- Kertas jatuh 6 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kertas_jatuh_6.png') }}" alt="Kertas Jatuh 6"
             id="phase1_kertas_jatuh_6" class="absolute w-[21.8%] top-[61.85%] left-[.86%] z-[12] lazy-load"
@@ -83,10 +79,12 @@
     <img data-src="{{ asset('/assets/home/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri"
         class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[4] cursor-pointer lazy-load" loading="lazy">
     <img data-src="{{ asset('/assets/home/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri_hidden"
-        class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[100] opacity-0 cursor-pointer lazy-load" loading="lazy">
+        class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[100] opacity-0 cursor-pointer lazy-load"
+        loading="lazy">
 
     {{-- block dummy buat test maureen --}}
-    <div class="absolute w-[51.5%] w-[6vw] h-[6vw] top-[35%] left-[42%] z-[3] cursor-pointer bg-red-600" id="dummymaureen"></div>
+    <div class="absolute w-[51.5%] w-[6vw] h-[6vw] top-[35%] left-[42%] z-[3] cursor-pointer bg-red-600"
+        id="dummymaureen"></div>
 
     {{-- anting2 --}}
     <div>
@@ -215,7 +213,8 @@
     {{-- Bawah kanan --}}
     <div>
         {{-- block dummy buat test pintu --}}
-        <div class="absolute w-[6vw] h-[6vw] bottom-[10%] left-[80%] z-[15] cursor-pointer bg-red-600" id="dummy_pintu"></div>
+        <div class="absolute w-[6vw] h-[6vw] bottom-[10%] left-[80%] z-[15] cursor-pointer bg-red-600"
+            id="dummy_pintu"></div>
 
         {{-- Box bawah --}}
         <img data-src="{{ asset('/assets/home/new_phase1/box_tas.png') }}" alt="Box Bawah" id="phase1_box_bawah"
@@ -223,8 +222,8 @@
 
         {{-- Orang Kanan --}}
         <img data-src="{{ asset('/assets/home/new_phase1/maureen_bawah.png') }}" alt="Orang Bawah 3"
-            id="phase1_orang_bawah3" class="absolute w-[14.35%] bottom-[1.9%] right-[16.75%] z-[20] lazy-load cursor-pointer"
-            loading="lazy">
+            id="phase1_orang_bawah3"
+            class="absolute w-[14.35%] bottom-[1.9%] right-[16.75%] z-[20] lazy-load cursor-pointer" loading="lazy">
 
         {{-- Pintu --}}
         <img data-src="{{ asset('/assets/home/new_phase1/pintu.png') }}" alt="Pintu" id="phase1_pintu"
@@ -232,18 +231,18 @@
 
         {{-- Kalung biru --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kalung_biru.png') }}" alt="Kalung Biru"
-            id="phase1_kalung_biru" class="absolute w-[11%] bottom-[20.1%] right-[15.5%] z-[18] lazy-load cursor-pointer"
-            loading="lazy">
+            id="phase1_kalung_biru"
+            class="absolute w-[11%] bottom-[20.1%] right-[15.5%] z-[18] lazy-load cursor-pointer" loading="lazy">
 
         {{-- Kalung pink --}}
         <img data-src="{{ asset('/assets/home/new_phase1/kalung_pink.png') }}" alt="Kalung Pink"
-            id="phase1_kalung_pink" class="absolute w-[12.25%] bottom-[15.75%] right-[9.25%] z-[18] lazy-load cursor-pointer"
-            loading="lazy">
+            id="phase1_kalung_pink"
+            class="absolute w-[12.25%] bottom-[15.75%] right-[9.25%] z-[18] lazy-load cursor-pointer" loading="lazy">
 
         {{-- Tangan --}}
         <img data-src="{{ asset('/assets/home/new_phase1/tangan_bawah.png') }}" alt="Tangan Bawah"
-            id="phase1_tangan_bawah" class="absolute w-[17.75%] bottom-[4.35%] right-0 z-[19] lazy-load cursor-pointer"
-            loading="lazy">
+            id="phase1_tangan_bawah"
+            class="absolute w-[17.75%] bottom-[4.35%] right-0 z-[19] lazy-load cursor-pointer" loading="lazy">
 
         {{-- Bunga --}}
         <img data-src="{{ asset('/assets/home/new_phase1/buket_bunga.png') }}" alt="Bunga" id="phase1_bunga"
@@ -256,7 +255,8 @@
                 id="phase1_tas_orange" class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[14] lazy-load"
                 loading="lazy">
             <img data-src="{{ asset('/assets/home/new_phase1/tas_oren.png') }}" alt="Tas Orange"
-                id="phase1_tas_orange_hidden" class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[22] lazy-load cursor-pointer opacity-0"
+                id="phase1_tas_orange_hidden"
+                class="absolute w-[11.5%] bottom-[17%] right-[27%] z-[22] lazy-load cursor-pointer opacity-0"
                 loading="lazy">
 
             {{-- Merah --}}
@@ -267,8 +267,10 @@
             {{-- Ijo --}}
             <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo"
                 class="absolute w-[16%] bottom-[12%] right-[24.75%] z-[16] lazy-load" loading="lazy">
-            <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo" id="phase1_tas_ijo_hidden"
-                class="absolute w-[16%] bottom-[12%] right-[24.75%] z-[21] lazy-load cursor-pointer opacity-0" loading="lazy">
+            <img data-src="{{ asset('/assets/home/new_phase1/tas_ijo.png') }}" alt="Tas Ijo"
+                id="phase1_tas_ijo_hidden"
+                class="absolute w-[16%] bottom-[12%] right-[24.75%] z-[21] lazy-load cursor-pointer opacity-0"
+                loading="lazy">
         </div>
 
         {{-- Tumpukan barang --}}
@@ -289,23 +291,60 @@
             id="phase1_lebah_telpon" class="absolute w-[11%] bottom-[19.75%] right-[1.75%] z-[25] lazy-load"
             loading="lazy">
         {{-- lebah 4 Bawah --}}
-        <img data-src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4" id="phase1_lebah_4"
-            class="absolute w-[11%] bottom-[19.25%] right-[38%] z-[25] lazy-load" loading="lazy">
+
+        <div class="lebah4-container absolute w-[25%] bottom-[23%] right-[38%] z-[25]">
+            <img src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4" id="phase1_lebah_4"
+                class="absolute w-[40%]" loading="eager">
+            <svg viewBox="0 0 665 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="pathLebah4"
+                    d="M82 108.5C-44.8301 256.903 -27.4442 330.964 174 445.5H269.5L333 365C419.712 422.781 474.478 424.738 581.5 382C699.369 303.627 693.351 251.339 551 143C431.214 -33.7885 330.03 -45.2092 82 108.5Z"
+                    stroke="none" />
+            </svg>
+        </div>
+
         {{-- lebah 3 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/lebah_3.png') }}" alt="Lebah 3" id="phase1_lebah_3"
-            class="absolute w-[11%] top-[22.75%] left-[13%] z-[25] lazy-load" loading="lazy">
+            class="absolute w-[11%] top-[21.25%] left-[11%] z-[25] lazy-load" loading="lazy">
         {{-- lebah 1 --}}
-        <img src="{{ asset('/assets/home/new_phase1/lebah_1.png') }}" alt="Lebah 1" id="phase1_lebah_1"
-            class="absolute w-[11%] top-[17.75%] left-[29.5%] z-[25]" loading="eager">
+        <div class="lebah1-container absolute w-[11%] top-[10%] left-[16.75%] z-[25]">
+            <img src="{{ asset('/assets/home/new_phase1/lebah_1.png') }}" alt="Lebah 1" id="phase1_lebah_1"
+                class="absolute w-[100%]" loading="eager">
+            <svg viewBox="0 0 253 668" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="pathLebah1"
+                    d="M177.5 665.5C146.421 518.068 153.276 452.235 204 361.5C274.84 181.909 269.003 107.705 177.5 22.5C39.637 -25.9835 2.22524 1.17708 16.5 160C-23.3943 376.039 10.9961 486.869 177.5 665.5Z"
+                    stroke="none" />
+            </svg>
+
+        </div>
+
+        {{-- lebah2Atas --}}
+        <div class="lebah2Atas-container absolute w-[19%] top-[12%] right-[5%] z-[25]">
+            <img src="{{ asset('/assets/home/new_phase1/lebah_2.png') }}" alt="Lebah 2 atas"
+                id="phase1_lebah_2_atas" class="absolute w-[37%]" loading="eager">
+            <svg viewBox="0 0 461 599" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="pathLebah2Atas"
+                    d="M128.999 582.499C257.377 605.795 397.5 568 423.499 595.999C449.498 623.999 454.999 338 454.999 338C479.387 105.196 411.998 0.499023 331.999 0.499512C252 0.5 272.26 109.744 115.499 91.9995C-36.4045 194.216 -38.0271 266.065 115.499 421.5C108.392 498.253 67.0231 583.196 128.999 582.499Z"
+                    stroke="none" />
+            </svg>
+
+        </div>
+
         {{-- lebah 2 --}}
         <img data-src="{{ asset('/assets/home/new_phase1/lebah_2.png') }}" alt="Lebah 2" id="phase1_lebah_2"
             class="absolute w-[11%] bottom-[1.5%] right-[-2.95%] z-[25] lazy-load" loading="lazy">
         {{-- lebah 4 atas --}}
-        <img src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4 atas" id="phase1_lebah_4_atas"
-            class="absolute w-[8%] top-[4.6%] right-[11.3%] z-[25]" loading="eager">
-
-
+        <div class="lebah4Atas-container absolute w-[8%] top-[4.5%] right-[23.4%] z-[25]">
+            <img src="{{ asset('/assets/home/new_phase1/lebah_4.png') }}" alt="Lebah 4 atas"
+                id="phase1_lebah_4_atas" class="absolute w-[100%]" loading="eager">
+            <svg viewBox="0 0 146 181" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="pathLebah4Atas"
+                    d="M145 1C43.4906 20.7739 -104.744 84.2574 114.394 180C49.306 126.057 64.6793 108.916 145 91.7071C68.8778 73.0773 68.7868 53.2371 145 1Z"
+                    stroke="none" />
+            </svg>
+        </div>
 
 
     </div>
+
+
 </section>
