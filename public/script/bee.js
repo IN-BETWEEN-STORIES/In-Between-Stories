@@ -78,6 +78,7 @@ function createTween2() {
             path: "#pathLebah1",
             align: "#pathLebah1",
             alignOrigin: [0.5, 0.5],
+            autoRotate: 55,
         },
         repeat: -1,
         onUpdate: function () {
@@ -112,6 +113,9 @@ function createTween3() {
     const bounds = [0, 0.003]
     const bounds1 = [0.25, 0.253]
     tween3 && tween3.progress(0).kill();
+
+    let scaleX = 1;
+
     tween3 = gsap.to("#phase1_lebah_4", {
         duration: 8,
         ease: "none",
@@ -136,6 +140,22 @@ function createTween3() {
                 setTimeout(() => {
                     tween3.play();
                 }, 500);
+            } else if (progress >= 0.5 && progress <= 0.503) {
+                tween3.progress(0.503)
+                scaleX = -1;
+                gsap.to("#phase1_lebah_4", {
+                    duration: 0.3,
+                    scaleX,
+                    ease: "none"
+                })
+            } else if (progress >= 0.05 && progress <= 0.053) {
+                tween3.progress(0.053)
+                scaleX = 1;
+                gsap.to("#phase1_lebah_4", {
+                    duration: 0.3,
+                    scaleX,
+                    ease: "none"
+                })
             }
         }
     })
@@ -147,13 +167,13 @@ function createTween4() {
     const bounds = [0.54, 0.543]
     tween4 && tween4.progress(0).kill();
     tween4 = gsap.to("#phase1_lebah_2_atas", {
-        duration: 8,
+        duration: 9,
         ease: "none",
         motionPath: {
             path: "#pathLebah2Atas",
             align: "#pathLebah2Atas",
             alignOrigin: [0.5, 0.5],
-            // autoRotate: true,
+            autoRotate: 130,
         },
         repeat: -1,
         onUpdate: function () {
