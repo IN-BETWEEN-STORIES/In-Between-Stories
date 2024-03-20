@@ -130,11 +130,14 @@ $(document).ready(function () {
             $(tas3).toggleClass('zoomed-out');
 
         }
-        $(tas1).toggleClass('zoomed-in');
-
-
+        if (tas1.attr('id') == 'phase1_tas_orange') {
+            $(tas1).toggleClass('zoomed-in-orange');
+        } else {
+            $(tas1).toggleClass('zoomed-in');
+        }
 
     }
+
     tasIjo = $('#phase1_tas_ijo')
     tasIjoClickable = $('#phase1_tas_ijo_hidden, #phase1_tas_ijo')
     tasMerah = $('#phase1_tas_merah')
