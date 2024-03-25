@@ -280,24 +280,44 @@
 
 @keyframes flyBee2 {
     0% {
-        transform: translate(-1px, -1px);
-    }
+        transform: translate(-0.5px, -0.5px);
+        -webkit-transform: translate(-0.5px, -0.5px);
+        -moz-transform: translate(-0.5px, -0.5px);
+        -ms-transform: translate(-0.5px, -0.5px);
+        -o-transform: translate(-0.5px, -0.5px);
+}
 
     25% {
-        transform: translate(2px, 2px);
-    }
+        transform: translate(1px, 1px);
+        -webkit-transform: translate(1px, 1px);
+        -moz-transform: translate(1px, 1px);
+        -ms-transform: translate(1px, 1px);
+        -o-transform: translate(1px, 1px);
+}
 
     50% {
-        transform: translate(-3px, -3px);
-    }
+        transform: translate(-1.5px, -1.5px);
+        -webkit-transform: translate(-1.5px, -1.5px);
+        -moz-transform: translate(-1.5px, -1.5px);
+        -ms-transform: translate(-1.5px, -1.5px);
+        -o-transform: translate(-1.5px, -1.5px);
+}
 
     75% {
-        transform: translate(2px, 2px);
-    }
+        transform: translate(1px, 1px);
+        -webkit-transform: translate(1px, 1px);
+        -moz-transform: translate(1px, 1px);
+        -ms-transform: translate(1px, 1px);
+        -o-transform: translate(1px, 1px);
+}
 
     100% {
-        transform: translate(-1px, -1px);
-    }
+        transform: translate(-0.5px, -1px);
+        -webkit-transform: translate(-0.5px, -1px);
+        -moz-transform: translate(-0.5px, -1px);
+        -ms-transform: translate(-0.5px, -1px);
+        -o-transform: translate(-0.5px, -1px);
+}
 }
 
 @keyframes flyBee1 {
@@ -373,7 +393,8 @@
 } */
 
 #phase1_lebah_2 {
-    animation: flyBee2 .5s linear infinite;
+    animation: flyBee2 .9s linear infinite;
+    -webkit-animation: flyBee2 .9s linear infinite;
 }
 
 /* #phase1_lebah_1 {
