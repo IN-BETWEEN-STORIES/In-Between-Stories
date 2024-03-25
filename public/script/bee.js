@@ -45,19 +45,19 @@ function createTween() {
                 tween.pause();
                 setTimeout(() => {
                     tween.play();
-                }, 500);
+                }, 1500);
             } else if (progress >= bounds1[0] && progress <= bounds1[1]) {
                 tween.progress(bounds1[1])
                 tween.pause();
                 setTimeout(() => {
                     tween.play();
-                }, 500);
+                }, 1500);
             } else if (progress >= bounds2[0] && progress <= bounds2[1]) {
                 tween.progress(bounds2[1])
                 tween.pause();
                 setTimeout(() => {
                     tween.play();
-                }, 500);
+                }, 1500);
             }
         }
     })
@@ -89,19 +89,19 @@ function createTween2() {
                 tween2.pause();
                 setTimeout(() => {
                     tween2.play();
-                }, 500);
+                }, 1500);
             } else if (progress >= bounds1[0] && progress <= bounds1[1]) {
                 tween2.progress(bounds1[1])
                 tween2.pause();
                 setTimeout(() => {
                     tween2.play();
-                }, 500);
+                }, 1500);
             } else if (progress >= bounds2[0] && progress <= bounds2[1]) {
                 tween2.progress(bounds2[1])
                 tween2.pause();
                 setTimeout(() => {
                     tween2.play();
-                }, 500);
+                }, 1500);
             }
         }
     })
@@ -133,13 +133,13 @@ function createTween3() {
                 tween3.pause();
                 setTimeout(() => {
                     tween3.play();
-                }, 500);
+                }, 1500);
             } else if (progress >= bounds1[0] && progress <= bounds1[1]) {
                 tween3.progress(bounds1[1])
                 tween3.pause();
                 setTimeout(() => {
                     tween3.play();
-                }, 500);
+                }, 1500);
             } else if (progress >= 0.5 && progress <= 0.503) {
                 tween3.progress(0.503)
                 scaleX = -1;
@@ -184,7 +184,7 @@ function createTween4() {
                 tween4.pause();
                 setTimeout(() => {
                     tween4.play();
-                }, 500);
+                }, 1500);
             }
         }
     })
