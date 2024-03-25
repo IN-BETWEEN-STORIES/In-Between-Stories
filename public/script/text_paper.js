@@ -24,11 +24,11 @@ $(document).ready(function () {
         scrollTrigger: {
             trigger: "#phase1_kertasText",
             start: "20% bottom",
-            end: "50% top",
+            end: "80% top",
             scrub: true,
             // markers: true,
         },
-        x: "-7%",
+        x: "-14%",
         duration: 5,
     });
 
