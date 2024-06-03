@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> --}}
+    <link rel="shortcut icon" href="/in_betweenstories.jpg" type="image/x-icon">
     <title>In Between Stories</title>
 
     {{-- Tailwind CSS --}}
@@ -25,6 +26,10 @@
     </script>
 
     <style>
+        html {
+            overflow-x: hidden;
+        }
+
         body {
             font-family: 'system-ui', sans-serif;
             overflow-x: hidden;
@@ -52,18 +57,25 @@
 
 <body>
     <main class="w-screen h-fit">
-        @include('home.phase1_compressed')
+        @include('middle-years.phase1')
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.2/MotionPathPlugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> --}}
 
-    <script src="{{ asset('/script/home.js') }}"></script>
-    <script src="{{ asset('/script/observer.js') }}"></script>
-    <script src="{{ asset('/script/falling_paper.js') }}" defer></script>
-    <script src="{{ asset('/script/coffee.js') }}"></script>
-    <script src="{{ asset('/script/drawer.js') }}"></script>
-    <script src="{{ asset('/script/clock.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/home.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/observer.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/falling_paper.js') }}" defer></script>
+    <script src="{{ asset('/script/middle-years/coffee.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/drawer.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/clock.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/text_paper.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/maureen.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/pintu.js') }}"></script>
+    <script src="{{ asset('/script/middle-years/bee.js') }}"></script>
 </body>
 
 </html>

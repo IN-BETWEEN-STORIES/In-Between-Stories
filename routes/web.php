@@ -13,9 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home.main');
+Route::get('/middle-years', function () {
+    return view('middle-years.main');
 });
-Route::get('/compressed', function() {
+
+Route::get('/', function () {
+    return view('home.index');
+});
+
+Route::get('/compressed', function () {
     return view('home.compressed');
 });

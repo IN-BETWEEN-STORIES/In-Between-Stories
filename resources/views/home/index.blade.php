@@ -35,7 +35,7 @@
             overflow-x: hidden;
             margin: 0;
             padding: 0;
-            background-color: lightskyblue;
+            background-color: black;
         }
 
         ::-webkit-scrollbar {
@@ -57,7 +57,7 @@
 
 <body>
     <main class="w-screen h-fit">
-        @include('home.phase1')
+        @include('home.home')
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -66,16 +66,6 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
     {{-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> --}}
 
-    <script src="{{ asset('/script/home.js') }}"></script>
-    <script src="{{ asset('/script/observer.js') }}"></script>
-    <script src="{{ asset('/script/falling_paper.js') }}" defer></script>
-    <script src="{{ asset('/script/coffee.js') }}"></script>
-    <script src="{{ asset('/script/drawer.js') }}"></script>
-    <script src="{{ asset('/script/clock.js') }}"></script>
-    <script src="{{ asset('/script/text_paper.js') }}"></script>
-    <script src="{{ asset('/script/maureen.js') }}"></script>
-    <script src="{{ asset('/script/pintu.js') }}"></script>
-    <script src="{{ asset('/script/bee.js') }}"></script>
 </body>
 
 </html>
