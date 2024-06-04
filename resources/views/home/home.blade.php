@@ -20,7 +20,7 @@
 
         {{-- tagline logo pantjarona --}}
         <img src="/assets/home/tagline & logo pantjarona.png" alt="tagline-logo-pantjarona"
-            class="absolute left-[50%] top-[15.5%] transform translate-x-[-50%] w-[77%]">
+            class="absolute left-[50%] top-[15.2%] transform translate-x-[-50%] w-[77%]">
     </div>
 
 </section>
