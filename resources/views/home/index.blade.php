@@ -67,6 +67,7 @@
     {{-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> --}}
 
     <script src="/script/home/lightbulb.js"></script>
+    <script src="/script/home/tv.js"></script>
 </body>
 
 </html>
