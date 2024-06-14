@@ -11,6 +11,10 @@
 
     </div>
 
+    <div class="absolute z-[2] w-full h-full">
+        <img src="/assets/home/Header.png" alt="header" class="absolute max-w-full left-[1.5%]">
+    </div>
+
     {{-- others --}}
     <div class="absolute z-[2] w-full h-full">
         {{-- lightbulb click area --}}
