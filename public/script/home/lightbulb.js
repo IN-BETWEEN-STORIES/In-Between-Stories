@@ -3,6 +3,10 @@ const logoTaglinePantjarona = document.getElementById(
 );
 const lightbulbOn = document.getElementById("lightbulb-on");
 const lightbulbOff = document.getElementById("lightbulb-off");
+const lightbulbNarrativeOff = document.getElementById(
+    "lightbulb-narrative-off"
+);
+const lightbulbNarrativeOn = document.getElementById("lightbulb-narrative-on");
 
 // preload dimmed lightbulb image
 const dimmedLightbulb = new Image();
@@ -27,15 +31,21 @@ function toggleLightbulb(event, newLightbulbState = null) {
     if (lightbulbState == LIGHTBULB_STATE.OFF) {
         lightbulbOn.style.opacity = 0;
         lightbulbOff.style.opacity = 1;
+        lightbulbNarrativeOff.style.opacity = 1;
+        lightbulbNarrativeOn.style.opacity = 0;
         logoTaglinePantjarona.style.opacity = 0;
     } else if (lightbulbState == LIGHTBULB_STATE.HALF) {
         lightbulbOff.style.opacity = 0;
         lightbulbOn.src = "/assets/home/lampu redup.jpg";
         lightbulbOn.style.opacity = 1;
+        lightbulbNarrativeOn.style.opacity = 1;
+        lightbulbNarrativeOff.style.opacity = 0;
         logoTaglinePantjarona.style.opacity = 0.5;
     } else {
         lightbulbOff.style.opacity = 0;
         logoTaglinePantjarona.style.opacity = 1;
+        lightbulbNarrativeOn.style.opacity = 1;
+        lightbulbNarrativeOff.style.opacity = 0;
         lightbulbOn.src = "/assets/home/lampu nyala.jpg";
         lightbulbOn.style.opacity = 1;
     }
