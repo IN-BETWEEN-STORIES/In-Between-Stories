@@ -53,6 +53,19 @@
         <img src="/assets/home/Art Work_Narrative.png" alt="art work narrative"
             class="absolute w-[60%] top-[44.3%] left-[50%] transform translate-x-[-50%]">
 
+        {{-- <div class="absolute w-full z-[2] top-[62.5%]">
+            <img src="/assets/home/Our Collection Pop Up_No like card (without black BG)1.png" alt="pop up no like"
+                class="absolute w-[45%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[3] w-[27.5%] aspect-square">
+                <img src="/assets/home/foto luar 1.png" alt="foto luar 1" class="w-full h-full object-contain">
+            </div>
+            <div class="absolute left-[61.825%] bottom-[15.5%] bg-black w-[3.5%] aspect-[1/1]"></div>
+            <img src="/assets/home/Our Collection Pop Up_Left Slide Icon.png" alt="left slide"
+                class="absolute left-[18%] top-1/2 transform -translate-y-1/2 w-[10%]">
+            <img src="/assets/home/Our Collection Pop Up_Right Slide Icon.png" alt="right slide">
+        </div> --}}
+
         <div class="absolute w-full aspect-[96/108] top-[47.3%]">
             {{-- narative --}}
             <img src="/assets/home/Interactive_Narrative 01.png" alt="narrative"
@@ -123,26 +136,47 @@
             <img src="/assets/home/Our Collection_Narrative.png" alt="our collection narrative"
                 class="absolute w-[37%] top-[52%] left-[50%] transform translate-x-[-50%]">
 
+            <div id="popUp" class="hidden">
+                <img id="imagePlaceHolder" src="/assets/home/Our Collection Pop Up_No like card (with black BG).png"
+                    alt="pop up no like" class="absolute w-full top-[49%] left-1/2 transform -translate-x-1/2 z-[2]">
+                <div class="absolute top-[60%] left-1/2 transform -translate-x-1/2 z-[3] w-[27.5%] aspect-square">
+                    <img id="imagePopUp" src="/assets/home/foto luar 10.png" alt="foto luar 1"
+                        class="w-full h-full object-contain">
+                </div>
+                <div id="likeButton" class="absolute left-[61.9%] bottom-[11%] w-[3.5%] z-[4] aspect-[1/1]">
+                </div>
+                <img src="/assets/home/Our Collection Pop Up_Left Slide Icon.png" id="slideLeft" alt="left slide"
+                    class="absolute left-[18%] top-[65%] transform w-[15%] z-[3]">
+                <img src="/assets/home/Our Collection Pop Up_Right Slide Icon.png" id="slideRight" alt="right slide"
+                    class="absolute right-[18%] top-[65%] transform w-[15%] z-[3]">
+                <img src="/assets/home/Our Collection Pop Up_Narrative.png" alt="pop up narrative"
+                    class="absolute left-1/2 transform -translate-x-1/2 bottom-[-3.5%] transform w-[100%] z-[3]">
+
+            </div>
+
             {{-- foto sebelah amplop --}}
             <img src="/assets/home/foto luar 1.png" alt="foto luar 1"
-                class="absolute w-[20.7%] top-[61.7%] left-[4.5%]">
-            <img src="/assets/home/foto luar 2.png" alt="foto luar 2" class="absolute w-[16%] top-[66%] left-[7.6%]">
-            <img src="/assets/home/foto luar 3.png" alt="foto luar 3" class="absolute w-[18.7%] top-[57.5%] left-[11%]">
+                class="absolute w-[20.7%] top-[61.7%] left-[4.5%] triggerPopUp">
+            <img src="/assets/home/foto luar 2.png" alt="foto luar 2"
+                class="absolute w-[16%] top-[66%] left-[7.6%] triggerPopUp">
+            <img src="/assets/home/foto luar 3.png" alt="foto luar 3"
+                class="absolute w-[18.7%] top-[57.5%] left-[11%] triggerPopUp">
             <img src="/assets/home/foto luar 4.png" alt="foto luar 4"
-                class="absolute w-[24.3%] top-[63.3%] left-[15%]">
+                class="absolute w-[24.3%] top-[63.3%] left-[15%] triggerPopUp">
             <img src="/assets/home/foto luar 5.png" alt="foto luar 5"
-                class="absolute w-[24.5%] top-[59%] left-[18.5%]">
+                class="absolute w-[24.5%] top-[59%] left-[18.5%] triggerPopUp">
             <img src="/assets/home/foto luar 6.png" alt="foto luar 6"
-                class="absolute w-[19%] top-[62.3%] left-[21.5%]">
+                class="absolute w-[19%] top-[62.3%] left-[21.5%] triggerPopUp">
             <img src="/assets/home/foto luar 7.png" alt="foto luar 7"
-                class="absolute w-[21%] top-[68.3%] left-[24.5%]">
-            <img src="/assets/home/foto luar 8.png" alt="foto luar 8" class="absolute w-[17%] top-[64%] left-[28%]">
+                class="absolute w-[21%] top-[68.3%] left-[24.5%] triggerPopUp">
+            <img src="/assets/home/foto luar 8.png" alt="foto luar 8"
+                class="absolute w-[17%] top-[64%] left-[28%] triggerPopUp">
             <img src="/assets/home/foto luar 9.png" alt="foto luar 9"
-                class="absolute w-[20%] top-[68.1%] left-[31.4%]">
+                class="absolute w-[20%] top-[68.1%] left-[31.4%] triggerPopUp">
             <img src="/assets/home/foto luar 10.png" alt="foto luar 10"
-                class="absolute w-[23%] top-[70.1%] left-[33%]">
+                class="absolute w-[23%] top-[70.1%] left-[33%] triggerPopUp">
             <img src="/assets/home/foto luar 11.png" alt="foto luar 11"
-                class="absolute w-[14.2%] top-[63%] left-[36%]">
+                class="absolute w-[14.2%] top-[63%] left-[36%] triggerPopUp">
 
         </div>
 

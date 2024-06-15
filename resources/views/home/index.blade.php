@@ -68,6 +68,7 @@
 
     <script src="/script/home/lightbulb.js"></script>
     <script src="/script/home/tv.js"></script>
+    <script src="/script/home/popup.js"></script>
 </body>
 
 </html>
