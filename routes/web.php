@@ -24,3 +24,11 @@ Route::get('/', function () {
 Route::get('/compressed', function () {
     return view('home.compressed');
 });
+
+Route::get('/website-day1', function () {
+    return view('website-day1.index');
+});
+
+Route::get('/website-day3', function () {
+    return view('website-day3.index');
+});
