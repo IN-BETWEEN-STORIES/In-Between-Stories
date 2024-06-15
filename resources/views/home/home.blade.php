@@ -1,6 +1,13 @@
 {{-- gae ngetes scroll --}}
 {{-- <section class="h-[100vh]"></section> --}}
 
+<style>
+    input:focus {
+        outline: none !important;
+        border: none !important;
+    }
+</style>
+
 <section id="phase1" class="relative w-full min-h-[479.427vw]">
     {{-- background & lightbulb --}}
     <div class="w-full h-full absolute z-[1]">
@@ -125,11 +132,13 @@
 
             {{-- dear future me book --}}
             <img src="/assets/home/Interactive_Dear Future Me Book.png" alt="dear future me book"
-                class="absolute w-[48.5%] left-[28.7%] top-[12%]">
+                class="absolute w-[48.5%] left-[28.7%] top-[12%] cursor-pointer"
+                data-modal-target="pop-up-modal" data-modal-toggle="pop-up-modal">
 
             {{-- heart --}}
             <img src="/assets/home/interactive hati tengah.png" alt="interactive hati tengah"
-                class="absolute w-[15.2%] left-[55.3%] top-[24.4%]">
+                class="absolute w-[15.2%] left-[55.3%] top-[24.4%] cursor-pointer"
+                data-modal-target="pop-up-modal" data-modal-toggle="pop-up-modal">
 
 
 
@@ -212,4 +221,34 @@
         </div>
     </div>
 
+    <!-- Pop up form -->
+    <div id="pop-up-modal" tabindex="-1" aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-md max-h-full">
+            <!-- Modal content -->
+            <div class="relative">
+                <img src="/assets/home/pop_up_form.png" alt="pop up form" class="transform md:scale-[1.5] z-[10]">
+
+                <form action=""class="absolute top-0 z-[11]" id="pop_up_form">
+                    <div class="flex flex-row">
+                        <div>
+                            <input type="text" name="name" id="input_name" class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[22.5%] ml-[32.5%] w-[90%]" placeholder="Your name">
+
+                            <input type="email" name="email" id="input_email" class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[19%] ml-[32.5%] w-[90%]" placeholder="youremail@gmail.com">
+    
+                            <input type="phone" name="wa" id="input_wa" class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[19%] ml-[32.5%] w-[90%]" placeholder="0812345678">
+                        </div>
+
+                        <div>
+                            <textarea name="message" id="input_message" rows="11" class="flex block p-0 text-sm text-gray-900 bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[39%] ml-[47.5%] w-[175%] resize-none text-left p-0 leading-[1.2]" placeholder="How are you doing?"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="border ml-[130%] mt-[10%] px-5 opacity-0">
+                        <p>Submit</p>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
 </section>
