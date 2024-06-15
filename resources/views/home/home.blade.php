@@ -48,6 +48,18 @@
 
         {{-- frame foto --}}
         <img src="/assets/home/frame foto.png" alt="photo frame" class="absolute top-[34.9%] transform w-[100%]">
+        <a href="/website-day1">
+            <img src="/assets/home/dummy model.jpg" alt="ke website day 1"
+                class="absolute top-[37.47%] transform translate-x-[48%] w-[20.55%]">
+        </a>
+        <a href="/middle-years">
+            <img src="/assets/home/dummy model.jpg" alt="ke home page"
+                class="absolute top-[37.47%] transform translate-x-[192.7%] w-[20.55%]">
+        </a>
+        <a href="/website-day3">
+            <img src="/assets/home/dummy model.jpg" alt="ke website day 3"
+                class="absolute top-[37.47%] transform translate-x-[338%] w-[20.55%]">
+        </a>
 
         {{-- art work narrative --}}
         <img src="/assets/home/Art Work_Narrative.png" alt="art work narrative"
