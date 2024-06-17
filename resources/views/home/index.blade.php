@@ -15,6 +15,8 @@
     {{-- jQuery --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+
     <script>
         tailwind.config = {
             darkMode: "class",
@@ -60,6 +62,7 @@
         @include('home.home')
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.2/MotionPathPlugin.js"></script>
@@ -68,6 +71,8 @@
 
     <script src="/script/home/lightbulb.js"></script>
     <script src="/script/home/tv.js"></script>
+    <script src="/script/home/popup.js"></script>
+    <script src="/script/home/draggable.js"></script>
 </body>
 
 </html>
