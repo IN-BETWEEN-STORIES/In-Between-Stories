@@ -15,7 +15,7 @@ $(document).ready(function(){
 
         setTimeout(() => {
             $('#dummymaureen').css('z-index', 10);
-        }, 600);
+        }, 800);
     }
 
     function showMaureen() {

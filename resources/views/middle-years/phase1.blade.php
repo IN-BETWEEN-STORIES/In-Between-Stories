@@ -5,7 +5,7 @@
     <img src="{{ asset('/assets/middle-years/new_phase1/background.webp') }}" alt="Phase 1 BG" id="phase1_bg" loading="eager"
         class="w-screen z-[1]">
 
-    <img src="{{ asset('/assets/middle-years/new_phase1/kertas teks.webp') }}" alt="Kertas Teks" id="phase1_kertasText"
+    <img src="{{ asset('/assets/middle-years/new_phase1/kertas_text.png') }}" alt="Kertas Teks" id="phase1_kertasText"
         loading="eager" class="absolute h-full top-0 left-[-37%] z-[50] cursor-pointer">
 
     {{-- Gedung 3 --}}
@@ -18,8 +18,9 @@
 
     {{-- cangkir & tangannya --}}
     <div>
-        <div class="bg-[#ff0000] w-[6vw] h-[6vw] absolute top-[10%] left-[50%] z-[3] cursor-pointer"
-            id="coffee_grp_placeholder"></div>
+        {{-- text belakang cangkir --}}
+        <img src="{{ asset('/assets/middle-years/new_phase1/txt_placement_01.png') }}" alt="text_samata" id="coffee_grp_placeholder"
+        class="w-[32vw] h-[32vw] absolute top-[6.5%] left-[35%] z-[3] cursor-pointer" loading="eager">
         {{-- Cangkir belakang --}}
         <img src="{{ asset('/assets/middle-years/new_phase1/kopi_belakang.webp') }}" alt="Kopi" id="phase1_kopi_belakang"
             class="absolute w-[44%] top-[2.5%] left-[34.5%] z-[3] coffee_grp cursor-pointer" loading="eager">
@@ -77,13 +78,13 @@
 
     {{-- Foto kirine jam / maureen --}}
     <img data-src="{{ asset('/assets/middle-years/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri"
-        class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[4] cursor-pointer lazy-load" loading="lazy">
+        class="absolute w-[51.5%] top-[26.75%] left-[20.5%] z-[5] cursor-pointer lazy-load" loading="lazy">
     <img data-src="{{ asset('/assets/middle-years/new_phase1/maureen.png') }}" alt="Foto Kiri" id="phase1_foto_kiri_hidden"
         class="absolute w-[51.5%] top-[25.75%] left-[20.5%] z-[49] opacity-0 cursor-pointer lazy-load" loading="lazy">
 
-    {{-- block dummy buat test maureen --}}
-    <div class="absolute w-[51.5%] w-[6vw] h-[6vw] top-[35%] left-[42%] z-[3] cursor-pointer bg-red-600"
-        id="dummymaureen"></div>
+    {{-- text mau cepat dewasa --}}
+    <img data-src="{{ asset('/assets/middle-years/new_phase1/txt_placement_02.png') }}" alt="text_02" id="dummymaureen"
+    class="absolute w-[35vw] top-[27.75%] left-[27.5%] z-[4] cursor-pointer lazy-load" loading="lazy">
 
     {{-- anting2 --}}
     <div>
@@ -101,9 +102,10 @@
         <img data-src="{{ asset('/assets/middle-years/new_phase1/laci.webp') }}" alt="Laci 1" id="phase1_laci_1"
             class="absolute w-[79.5%] top-[44.46%] right-[-9.5%] z-[8] lazy-load" loading="lazy">
 
-        {{-- block dummy buat test tgn pegang jam --}}
-        <div class="absolute top-[36%] w-[6vw] h-[6vw] left-[83%] z-[7] cursor-pointer" id="dummy1"
-            style="background-color: red;"></div>
+        {{-- Text hidup tidak semanis... --}}
+        <img data-src="{{ asset('/assets/middle-years/new_phase1/txt_placement_03.png') }}" alt="text_03" id="dummy1"
+            class="absolute top-[29.3%] w-[24vw] left-[74.3%] z-[7] cursor-pointer lazy-load"
+            loading="lazy">
 
         {{-- Jam --}}
         <img data-src="{{ asset('/assets/middle-years/new_phase1/jam.webp') }}" alt="Jam" id="phase1_jam"
@@ -212,8 +214,10 @@
     {{-- Bawah kanan --}}
     <div>
         {{-- block dummy buat test pintu --}}
-        <div class="absolute w-[6vw] h-[6vw] bottom-[10%] left-[80%] z-[15] cursor-pointer bg-red-600"
-            id="dummy_pintu"></div>
+        {{-- <div class="absolute w-[6vw] h-[6vw] bottom-[10%] left-[80%] z-[15] cursor-pointer bg-red-600"
+            id="dummy_pintu"></div> --}}
+        <img data-src="{{ asset('/assets/middle-years/new_phase1/txt_placement_04.png') }}" alt="text_03" id="dummy_pintu"
+            class="absolute w-[24vw]  bottom-[6.5%] left-[73%] z-[15] cursor-pointer lazy-load" loading="lazy">
 
         {{-- Box bawah --}}
         <img data-src="{{ asset('/assets/middle-years/new_phase1/box_tas.png') }}" alt="Box Bawah" id="phase1_box_bawah"
