@@ -40,11 +40,13 @@
         <img id="logo-tagline-pantjarona" src="/assets/home/tagline & logo pantjarona.png" alt="tagline-logo-pantjarona"
             class="absolute left-[50%] top-[15.2%] transform translate-x-[-50%] w-[77%]" style="opacity: 0;">
 
-        {{-- video --}}
-        <video id="tv-video" class="absolute left-[50%] top-[-3%] transform translate-x-[-65%] w-[40%] h-[65%]"
-            src="/assets/home/Pancarona Teaser  rough sfx 3.mp4" type="video/mp4" muted="true">
-        </video>
 
+        {{-- video --}}
+        <div class="absolute left-[50%] top-[26.5%] transform translate-x-[-65%] w-[40%] aspect-[128/96] bg-red-200 overflow-x-hidden overflow-y-hidden">
+            <video id="tv-video" class="h-[150%] object-none transform translate-y-[-18%]"
+                    src="/assets/home/Pancarona Teaser  rough sfx 3.mp4" type="video/mp4" muted="true">
+                </video>
+        </div>
         {{-- tv --}}
         <img src="/assets/home/tv.png" alt="tv"
             class="absolute left-[50%] top-[25%] transform translate-x-[-50%] w-[65%]">
@@ -61,7 +63,7 @@
             class="absolute top-[36.99%] left-[66.57%] w-[26.8%]">
         {{-- frame foto --}}
         <img src="/assets/home/frame foto.png" alt="photo frame" class="absolute top-[34.9%] transform w-[100%]">
-        <a href="/day1" target="_blank" >
+        <a href="/day1" target="_blank">
             <div class="absolute bg-red-400 opacity-[0] top-[36.97%] left-[6.9%] w-[26.8%] aspect-[518/645]"></div>
         </a>
         <a href="/day2" target="_blank">
@@ -135,13 +137,13 @@
 
             {{-- dear future me book --}}
             <img src="/assets/home/Interactive_Dear Future Me Book.png" alt="dear future me book"
-                class="absolute w-[48.5%] left-[28.7%] top-[12%] cursor-pointer"
-                data-modal-target="pop-up-modal" data-modal-toggle="pop-up-modal">
+                class="absolute w-[48.5%] left-[28.7%] top-[12%] cursor-pointer" data-modal-target="pop-up-modal"
+                data-modal-toggle="pop-up-modal">
 
             {{-- heart --}}
             <img src="/assets/home/interactive hati tengah.png" alt="interactive hati tengah"
-                class="absolute w-[15.2%] left-[55.3%] top-[24.4%] cursor-pointer"
-                data-modal-target="pop-up-modal" data-modal-toggle="pop-up-modal">
+                class="absolute w-[15.2%] left-[55.3%] top-[24.4%] cursor-pointer" data-modal-target="pop-up-modal"
+                data-modal-toggle="pop-up-modal">
 
 
 
@@ -235,15 +237,23 @@
                 <form action=""class="absolute top-0 z-[11]" id="pop_up_form">
                     <div class="flex flex-row">
                         <div>
-                            <input type="text" name="name" id="input_name" class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[22.5%] ml-[32.5%] w-[90%]" placeholder="Your name">
+                            <input type="text" name="name" id="input_name"
+                                class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[22.5%] ml-[32.5%] w-[90%]"
+                                placeholder="Your name">
 
-                            <input type="email" name="email" id="input_email" class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[19%] ml-[32.5%] w-[90%]" placeholder="youremail@gmail.com">
-    
-                            <input type="phone" name="wa" id="input_wa" class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[19%] ml-[32.5%] w-[90%]" placeholder="0812345678">
+                            <input type="email" name="email" id="input_email"
+                                class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[19%] ml-[32.5%] w-[90%]"
+                                placeholder="youremail@gmail.com">
+
+                            <input type="phone" name="wa" id="input_wa"
+                                class="block p-0 text-sm bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[19%] ml-[32.5%] w-[90%]"
+                                placeholder="0812345678">
                         </div>
 
                         <div>
-                            <textarea name="message" id="input_message" rows="11" class="flex block p-0 text-sm text-gray-900 bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[39%] ml-[47.5%] w-[175%] resize-none text-left p-0 leading-[1.2]" placeholder="How are you doing?"></textarea>
+                            <textarea name="message" id="input_message" rows="11"
+                                class="flex block p-0 text-sm text-gray-900 bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 mt-[39%] ml-[47.5%] w-[175%] resize-none text-left p-0 leading-[1.2]"
+                                placeholder="How are you doing?"></textarea>
                         </div>
                     </div>
 
