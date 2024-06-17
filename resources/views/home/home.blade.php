@@ -42,7 +42,7 @@
 
         {{-- video --}}
         <video id="tv-video" class="absolute left-[50%] top-[-3%] transform translate-x-[-65%] w-[40%] h-[65%]"
-            src="/assets/home/spongebob.mp4" type="video/mp4" muted="true">
+            src="/assets/home/Pancarona Teaser  rough sfx 3.mp4" type="video/mp4" muted="true">
         </video>
 
         {{-- tv --}}
