@@ -53,19 +53,22 @@
         <img src="/assets/home/Our Creation_Television Click Button (Big Ring).png" alt="click-button-big"
             class="absolute top-[29%] right-[31%] aspect-[1/1] w-[3%] hover:scale-110 cursor-pointer" id="tv-toggle">
 
+        <img src="/assets/home/day 1 photo.png" alt="ke website day 1"
+            class="absolute top-[36.97%] left-[6.9%] w-[26.8%]">
+        <img src="/assets/home/day 2 photo.png" alt="ke website day 1"
+            class="absolute top-[36.99%] left-[36.57%] w-[26.8%]">
+        <img src="/assets/home/day 3 photo.png" alt="ke website day 1"
+            class="absolute top-[36.99%] left-[66.57%] w-[26.8%]">
         {{-- frame foto --}}
         <img src="/assets/home/frame foto.png" alt="photo frame" class="absolute top-[34.9%] transform w-[100%]">
-        <a href="/website-day1">
-            <img src="/assets/home/dummy model.jpg" alt="ke website day 1"
-                class="absolute top-[37.47%] transform translate-x-[48%] w-[20.55%]">
+        <a href="/day1" target="_blank" >
+            <div class="absolute bg-red-400 opacity-[0] top-[36.97%] left-[6.9%] w-[26.8%] aspect-[518/645]"></div>
         </a>
-        <a href="/middle-years">
-            <img src="/assets/home/dummy model.jpg" alt="ke home page"
-                class="absolute top-[37.47%] transform translate-x-[192.7%] w-[20.55%]">
+        <a href="/day2" target="_blank">
+            <div class="absolute bg-red-400 opacity-[0] top-[36.99%] left-[36.57%] w-[26.8%] aspect-[518/645]"></div>
         </a>
-        <a href="/website-day3">
-            <img src="/assets/home/dummy model.jpg" alt="ke website day 3"
-                class="absolute top-[37.47%] transform translate-x-[338%] w-[20.55%]">
+        <a href="/day3" target="_blank">
+            <div class="absolute bg-red-400 opacity-[0] top-[36.99%] left-[66.57%] w-[26.8%] aspect-[518/645]"></div>
         </a>
 
         {{-- art work narrative --}}
@@ -96,39 +99,39 @@
 
             {{-- interactive koran kanan --}}
             <img src="/assets/home/interactive koran kanan.png" alt="interactive koran kanan"
-                class="absolute w-[51%] top-[1.6%] right-[-17.2%]">
+                class="absolute w-[51%] top-[1.6%] right-[-17.2%] draggable">
 
             {{-- photocard tengah --}}
             <img src="/assets/home/interactive photocard tengah.png" alt="photocard tengah"
-                class="absolute w-[39%] left-[20.8%] top-[5%]">
+                class="absolute w-[39%] left-[20.8%] top-[5%] draggable">
 
             {{-- tumpukan foto tengah --}}
             <img src="/assets/home/interactive tumpukan foto tengah.png" alt="tumpukan foto tengah"
-                class="absolute w-[40.5%] left-[22.4%] top-[11.2%]">
+                class="absolute w-[40.5%] left-[22.4%] top-[11.2%] draggable">
 
             {{-- interactive buku tertutup kiri --}}
             <img src="/assets/home/interactive buku ketutup kiri.png" alt="interactive buku ketutup kiri"
-                class="absolute top-[4.6%] w-[36.5%] left-[-9%]">
+                class="absolute top-[4.6%] w-[36.5%] left-[-9%] draggable">
 
             {{-- interactive foto 1 kiri --}}
             <img src="/assets/home/interactive foto 1 kiri.png" alt="interactive foto 1 kiri"
-                class="absolute top-[11.9%] w-[19.2%] left-[3.1%]">
+                class="absolute top-[11.9%] w-[19.2%] left-[3.1%] draggable">
 
             {{-- interactive foto 2 kiri --}}
             <img src="/assets/home/interactive foto 2 kiri.png" alt="interactive foto 2 kiri"
-                class="absolute top-[19.3%] w-[19.9%] left-[-3.35%]">
+                class="absolute top-[19.3%] w-[19.9%] left-[-3.35%] draggable">
 
             {{-- interactive foto 3 kiri --}}
             <img src="/assets/home/interactive foto 3 kiri.png" alt="interactive foto 3 kiri"
-                class="absolute top-[29%] w-[19.5%] left-[.1%]">
+                class="absolute top-[29%] w-[19.5%] left-[.1%] draggable">
 
             {{-- interactive foto kanan --}}
             <img src="/assets/home/interactive foto kanan.png" alt="interactive foto kanan"
-                class="absolute w-[14.8%] top-[25.3%] right-[8.7%]">
+                class="absolute w-[14.8%] top-[25.3%] right-[8.7%] draggable">
 
             {{-- kacamata --}}
             <img src="/assets/home/interactive kacamata kanan.png" alt="kaca mata"
-                class="absolute w-[23%] right-[-3%] top-[19.3%]">
+                class="absolute w-[23%] right-[-3%] top-[19.3%] draggable">
 
             {{-- dear future me book --}}
             <img src="/assets/home/Interactive_Dear Future Me Book.png" alt="dear future me book"

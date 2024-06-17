@@ -53,8 +53,8 @@
 </head>
 
 <body>
-    <main class="w-screen h-fit">
-        <img src="/assets/website-day1/Website Day 1 (Tim VANRON)_FINAL_PANTJARONA.png" alt="website day 1" class="max-w-full">
+    <main>
+        <img src="/assets/website-day1/Website Day 1 (Tim VANRON)_FINAL_PANTJARONA.png" alt="website day 1" class="max-w-full block">
     </main>
 
 

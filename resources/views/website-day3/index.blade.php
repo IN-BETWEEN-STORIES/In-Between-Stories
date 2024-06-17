@@ -53,8 +53,8 @@
 </head>
 
 <body>
-    <main class="w-screen h-fit">
-        
+    <main>
+        <img src="/assets/home/Website Day 3 (Tim PATCHO)_Part 1_PANTJARONA.jpg" alt="website day 1" class="max-w-full block">
     </main>
 
 

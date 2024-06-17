@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/middle-years', function () {
+Route::get('/day2', function () {
     return view('middle-years.main');
 });
 
@@ -25,10 +25,10 @@ Route::get('/compressed', function () {
     return view('home.compressed');
 });
 
-Route::get('/website-day1', function () {
+Route::get('/day1', function () {
     return view('website-day1.index');
 });
 
-Route::get('/website-day3', function () {
+Route::get('/day3', function () {
     return view('website-day3.index');
 });
