@@ -139,12 +139,12 @@
             {{-- dear future me book --}}
             <img src="/assets/home/Interactive_Dear Future Me Book.png" alt="dear future me book"
                 class="absolute w-[48.5%] left-[28.7%] top-[12%] cursor-pointer" data-modal-target="pop-up-modal"
-                data-modal-toggle="pop-up-modal">
+                data-modal-toggle="pop-up-modal" id="popup-book">
 
             {{-- heart --}}
             <img src="/assets/home/interactive hati tengah.png" alt="interactive hati tengah"
                 class="absolute w-[15.2%] left-[55.3%] top-[24.4%] cursor-pointer" data-modal-target="pop-up-modal"
-                data-modal-toggle="pop-up-modal">
+                data-modal-toggle="pop-up-modal" id="popup-book-heart">
 
 
 
@@ -256,7 +256,7 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="border ml-[130%] mt-[10%] px-5 opacity-0">
+                    <button type="button" class="border ml-[130%] mt-[10%] px-5 opacity-0" id="popup-submit-btn">
                         <p>Submit</p>
                     </button>
                 </form>
@@ -264,3 +264,25 @@
         </div>
     </div>
 </section>
+
+<script>
+    const button = document.getElementById('popup-submit-btn');
+    const popupBook = document.getElementById('popup-book');
+    const heart = document.getElementById('popup-book-heart');
+    const modal = document.getElementById('pop-up-modal')
+
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        new Modal(modal).hide();
+    });
+
+    popupBook.addEventListener('click', (e) => {
+        e.preventDefault();
+        new Modal(modal).show();
+    });
+
+    heart.addEventListener('click', (e) => {
+        e.preventDefault();
+        new Modal(modal).show();
+    });
+</script>
