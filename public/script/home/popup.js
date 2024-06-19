@@ -20,27 +20,31 @@ document.addEventListener('DOMContentLoaded', function () {
         "foto luar 11.png",
     ]
 
-    const liked = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    const liked = Array(images.length).fill(0);
 
-    popupPlaceholder.addEventListener('click', closePopUp);
+    popupPlaceholder.addEventListener('click', function (event) {
+        if (event.target !== likeButton) {
+            closePopUp();
+        }
+    });
 
     triggerElements.forEach(function (element) {
-        element.addEventListener('click', function () {
+        element.addEventListener('dblclick', function () {
             showPopup(element);
         });
     });
 
-    likeButton.addEventListener('click', function () {
-        event.stopPropagation()
+    likeButton.addEventListener('dblclick', function (event) {
+        event.stopPropagation();
         likeButtonFunction()
     })
 
-    slideLeft.addEventListener('click', function () {
+    slideLeft.addEventListener('click', function (event) {
         event.stopPropagation()
         slideLeftFunction()
     })
 
-    slideRight.addEventListener('click', function () {
+    slideRight.addEventListener('click', function (event) {
         event.stopPropagation()
         slideRightFunction()
     })

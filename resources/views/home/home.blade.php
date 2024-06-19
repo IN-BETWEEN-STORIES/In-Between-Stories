@@ -42,10 +42,11 @@
 
 
         {{-- video --}}
-        <div class="absolute left-[50%] top-[26.5%] transform translate-x-[-65%] w-[40%] aspect-[128/96] bg-red-200 overflow-x-hidden overflow-y-hidden">
+        <div
+            class="absolute left-[50%] top-[26.5%] transform translate-x-[-65%] w-[40%] aspect-[128/96] bg-red-200 overflow-x-hidden overflow-y-hidden">
             <video id="tv-video" class="h-[150%] object-none transform translate-y-[-18%]"
-                    src="/assets/home/Pancarona Teaser  rough sfx 3.mp4" type="video/mp4" muted="true">
-                </video>
+                src="/assets/home/Pancarona Teaser  rough sfx 3.mp4" type="video/mp4" muted="true">
+            </video>
         </div>
         {{-- tv --}}
         <img src="/assets/home/tv.png" alt="tv"
@@ -163,21 +164,19 @@
                 class="absolute w-[37%] top-[52%] left-[50%] transform translate-x-[-50%]">
 
             <div id="popUp" class="hidden">
-                <img id="imagePlaceHolder" src="/assets/home/Our Collection Pop Up_No like card (with black BG).png"
-                    alt="pop up no like" class="absolute w-full top-[49%] left-1/2 transform -translate-x-1/2 z-[2]">
+                <img id="imagePlaceHolder" src="" alt="pop up no like"
+                    class="absolute w-full top-[49%] left-1/2 transform -translate-x-1/2 z-[2]">
                 <div class="absolute top-[60%] left-1/2 transform -translate-x-1/2 z-[3] w-[27.5%] aspect-square">
-                    <img id="imagePopUp" src="/assets/home/foto luar 10.png" alt="foto luar 1"
-                        class="w-full h-full object-contain">
+                    <img id="imagePopUp" src="" alt="foto luar 1" class="w-full h-full object-contain">
                 </div>
                 <div id="likeButton" class="absolute left-[61.9%] bottom-[11%] w-[3.5%] z-[4] aspect-[1/1]">
                 </div>
                 <img src="/assets/home/Our Collection Pop Up_Left Slide Icon.png" id="slideLeft" alt="left slide"
-                    class="absolute left-[18%] top-[65%] transform w-[15%] z-[3]">
+                    class="absolute left-[18%] top-[65%] transform w-[15%] z-[3] noselect">
                 <img src="/assets/home/Our Collection Pop Up_Right Slide Icon.png" id="slideRight" alt="right slide"
-                    class="absolute right-[18%] top-[65%] transform w-[15%] z-[3]">
+                    class="absolute right-[18%] top-[65%] transform w-[15%] z-[3] noselect">
                 <img src="/assets/home/Our Collection Pop Up_Narrative.png" alt="pop up narrative"
                     class="absolute left-1/2 transform -translate-x-1/2 bottom-[-3.5%] transform w-[100%] z-[3]">
-
             </div>
 
             {{-- foto sebelah amplop --}}
